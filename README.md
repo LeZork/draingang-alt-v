@@ -17,13 +17,13 @@
 2. Клонируйте репозиторий:
 
    ```bash
-   git clone <URL вашего репозитория>
+   git clone https://github.com/LeZork/draingang-alt-v
    ```
 
 3. Перейдите в директорию проекта:
 
    ```bash
-   cd DrainGangRolePlay
+   cd draingang-alt-v
    ```
 
 4. Запустите сервер:
