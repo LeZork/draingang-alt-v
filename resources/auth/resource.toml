@@ -1,0 +1,16 @@
+type = 'js'
+main = 'server/index.js'
+client-main = 'client/index.js'
+client-files = [ 
+    'client/*',
+    'client/html/*',
+    'client/html/sounds/*'
+]
+
+[web]
+# Добавляем настройки для веб-файлов
+windows = true
+files = [
+    'client/html/*',
+    'client/html/sounds/*'
+]

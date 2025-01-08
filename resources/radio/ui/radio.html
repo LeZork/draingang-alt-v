@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link type="text/css" rel="stylesheet" href="http://resource/ui/css/radio.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div id="app" v-show="focused" style="user-select:none">
+        <div class="container">
+            <div class="radio">
+                <div class="station">
+                    <img v-bind:src="radioList[currentRadio].image" />
+                </div>
+            </div>
+            <div>
+                <i class="fa fa-volume-down" style="color:grey"></i>
+                <progress id="vol" max="1" value="0.1"></progress>
+                <i class="fa fa-volume-up" style="color:grey"></i>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14"></script>
+</body>
+</html>
+
+<script>
+    let vol = document.getElementById("vol");
+    const eu = 65; // Код клавиши для управления
+    const app = new Vue({
+        el: '#app',
+        data: {
+            volume: 40,
+            player: new Audio(),
+            audioContext: new (window.AudioContext || window.webkitAudioContext)(),
+            source: null,
+            beep: null,
+            switching: null,
+            focused: false,
+            currentRadio: 0,
+            radioList: [
+                {
+                    name: 'OFF',
+                    image: 'http://resource/ui/img/off.png',
+                    url: '' // Добавьте URL для OFF, если необходимо
+                }
+            ]
+        },
+        methods: {
+            randomNumber(min, max) {
+                return Math.floor(Math.random() * (max - min + 1) + min);
+            },
+            play() {
+                const isPlaying =
+                    this.player.currentTime > 0 &&
+                    !this.player.paused &&
+                    !this.player.ended &&
+                    this.player.readyState > 2;
+
+                // Если радио выключено
+                if (this.currentRadio === 0) {
+                    this.player.pause(); // Останавливаем, если выбрана "OFF"
+                    let radiostat = "off";
+                    alt.emit('radio:isplaying', radiostat);
+                    return;
+                }
+
+                // Если аудио уже воспроизводится, сначала останавливаем его
+                if (isPlaying) {
+                    this.player.pause();
+                }
+
+                // Проверяем, если текущая станция уже воспроизводится
+                if (this.player.src === this.radioList[this.currentRadio].url) {
+                    this.player.volume = this.volume * 0.01; // Обновляем громкость
+                    this.player.play(); // Запускаем воспроизведение
+                    return;
+                }
+
+                // Создаем новый экземпляр Audio для текущей радиостанции
+                this.player = new Audio(this.radioList[this.currentRadio].url);
+                this.player.volume = this.volume * 0.01;
+
+                // Если источник уже существует, отключаем его
+                if (this.source) {
+                    this.source.disconnect();
+                }
+
+                // Создаем источник аудио
+                this.source = this.audioContext.createMediaElementSource(this.player);
+                this.source.connect(this.audioContext.destination); // Подключаем источник к выходу
+
+                this.player.play(); // Запускаем воспроизведение
+
+                let radiostat = this.radioList[this.currentRadio].url;
+                alt.emit('radio:isplaying', radiostat);
+            },
+            mouseScroll(delta) {
+                if (this.focused) {
+                    this.beep = new Audio('http://resource/ui/audio/beep.mp3');
+                    this.beep.volume = 0.1;
+                    this.beep.play();
+                    alt.emit('radio:ismoving');
+                    if (this.switching) {
+                        this.switching.pause();
+                        this.switching = null;
+                    }
+
+                    if (delta > 0) {
+                        this.nextStation();
+                    } else {
+                        this.previousStation();
+                    }
+                }
+            },
+            nextStation() {
+                if (this.currentRadio == this.radioList.length - 1) {
+                    this.currentRadio = 0;
+                } else {
+                    this.currentRadio++;
+                }
+
+                this.play();
+            },
+            previousStation() {
+                if (this.currentRadio == 0) {
+                    this.currentRadio = this.radioList.length - 1;
+                } else {
+                    this.currentRadio--;
+                }
+
+                this.play();
+            },
+            gotoStation(index) {
+                this.currentRadio = index;
+
+                this.focused = true;
+                this.play();
+                
+                let timeout = setTimeout(() => {
+                    this.focused = false;
+                }, 2000);
+            },
+            stopRadio() {
+                if (this.player) {
+                    this.player.pause(); // Останавливаем воспроизведение
+                    this.player.currentTime = 0; // Сбрасываем время воспроизведения
+                    this.player.src = ''; // Очищаем источник
+                }
+            }
+        },
+        computed: {},
+        watch: {
+            currentRadio() {
+                if ('alt' in window) {
+                    alt.emit('radio:StationChanged', this.currentRadio);
+                    document.getElementById("vol").value = 0.1;
+                }
+            }
+        },
+        mounted() {
+            window.addEventListener('wheel', event => {
+                const delta = Math.sign(event.deltaY);
+                this.mouseScroll(delta);
+            });
+
+            window.addEventListener('keydown', event => {
+                if (event.keyCode === eu) {
+                    this.focused = true;
+                } else {
+                    return;
+                }
+            });
+
+            window.addEventListener('keyup', event => {
+                if (event.keyCode === eu) {
+                    this.focused = false;
+                } else {
+                    return;
+                }
+            });
+
+            this.player.addEventListener('loadstart', () => {
+                if (this.switching) {
+                    this.switching = new Audio(`http://resource/ui/audio/switching${this.randomNumber(1, 6)}.mp3`);
+                    this.switching.volume = 0.1;
+                    this.switching.play();
+                }
+            });
+
+            this.player.addEventListener('playing', () => {
+                if (this.switching) {
+                    this.switching.pause();
+                    this.switching = null;
+                }
+            });
+
+            if ('alt' in window) {
+                alt.on('switchRadio', radioStation => {
+                    this.gotoStation(radioStation);
+                });
+
+                alt.on('changeVolume', volume => {
+                    document.getElementById("vol").value = volume;
+                });
+
+                alt.on('addRadioStation', radio => {
+                    this.radioList.push(radio);
+                });
+
+                alt.on('focus', () => {
+                    this.focused = true;
+                });
+
+                alt.on('unfocus', () => {
+                    this.focused = false;
+                });
+
+                // Обработчик события для остановки радио при выходе из машины
+                alt.on('exitCar', () => {
+                    this.stopRadio(); // Остановить радио
+                });
+            }
+
+            if ('alt' in window) {
+                setTimeout(() => {
+                    alt.emit('browser:mounted');
+                }, 1000);
+            }
+        }
+    });
+</script>

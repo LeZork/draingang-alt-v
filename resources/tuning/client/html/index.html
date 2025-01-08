@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Тюнинг</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="tuning-menu">
+        <div class="categories"></div>
+        <div class="upgrades"></div>
+    </div>
+    
+    <div class="rotate-controls">
+        <button class="rotate-btn" onmousedown="startRotate('left')" onmouseup="stopRotate()" ontouchstart="startRotate('left')" ontouchend="stopRotate()">⟲</button>
+        <button class="rotate-btn" onmousedown="startRotate('right')" onmouseup="stopRotate()" ontouchstart="startRotate('right')" ontouchend="stopRotate()">⟳</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

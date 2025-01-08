@@ -1,0 +1,7 @@
+type = 'js'
+main = 'server/index.js'
+client-files = [
+    'client/*',
+    'client/ui/*',
+]
+client-main = 'client/index.js'

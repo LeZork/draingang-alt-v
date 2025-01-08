@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    color: white;
+    overflow: hidden;
+}
+
+.hud-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    padding: 15px;
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.datetime-container {
+    margin-bottom: 15px;
+    text-align: right;
+}
+
+.time {
+    font-size: 24px;
+    color: #4a9eff;
+    margin-bottom: 5px;
+}
+
+.date {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.stats-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.stat-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.health-bar {
+    width: 120px;
+    height: 8px;
+    background: rgba(255, 0, 0, 0.3);
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.health-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #2ecc71, #27ae60);
+    transition: width 0.3s ease;
+}
+
+.speedometer {
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.speed {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.speed-unit {
+    font-size: 16px;
+    opacity: 0.7;
+}
+
+.vehicle-indicators {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.vehicle-indicators i {
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
+}
+
+.vehicle-indicators i.active {
+    opacity: 1;
+    color: #4a9eff;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Анимации */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.fade-in {
+    animation: fadeIn 0.3s ease;
+}
+
+.hud-container.hidden {
+    display: none;
+    opacity: 0;
+    pointer-events: none;
+} 

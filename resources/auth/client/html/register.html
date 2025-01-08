@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: rgba(0, 0, 0, 0.5);
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+
+        .container {
+            background: rgba(0, 0, 0, 0.8);
+            padding: 30px;
+            border-radius: 10px;
+            width: 300px;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border: none;
+            border-radius: 4px;
+            background: rgba(255, 255, 255, 0.1);
+            color: white;
+            box-sizing: border-box;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            background: #4CAF50;
+            color: white;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        button:hover {
+            background: #45a049;
+        }
+
+        button:disabled {
+            background: #cccccc;
+            cursor: not-allowed;
+        }
+
+        .message {
+            margin-top: 10px;
+            text-align: center;
+            color: #ff4444;
+        }
+
+        .switch-form {
+            margin-top: 15px;
+            text-align: center;
+            color: #888;
+        }
+
+        .switch-form a {
+            color: #4CAF50;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        .loader {
+            width: 20px;
+            height: 20px;
+            border: 2px solid #FFF;
+            border-bottom-color: transparent;
+            border-radius: 50%;
+            display: inline-block;
+            box-sizing: border-box;
+            animation: rotation 1s linear infinite;
+        }
+
+        @keyframes rotation {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 style="text-align: center; margin-bottom: 20px;">Регистрация</h2>
+        <div class="form-group">
+            <input type="email" id="email" placeholder="Email" required>
+        </div>
+        <div class="form-group">
+            <input type="password" id="password" placeholder="Пароль" required>
+        </div>
+        <div class="form-group">
+            <input type="password" id="confirmPassword" placeholder="Подтвердите пароль" required>
+        </div>
+        <button onclick="register()" id="registerButton">Зарегистрироваться</button>
+        <div id="message" class="message"></div>
+        <div class="switch-form">
+            Уже есть аккаунт? <a onclick="switchToLogin()">Войти</a>
+        </div>
+    </div>
+
+    <script>
+        if (window.alt === undefined) {
+            window.alt = {
+                emit: () => {},
+                on: () => {}
+            };
+        }
+
+        function register() {
+            const email = document.getElementById('email').value.trim();
+            const password = document.getElementById('password').value;
+            const confirmPassword = document.getElementById('confirmPassword').value;
+            const button = document.getElementById('registerButton');
+
+            if (!email || !password || !confirmPassword) {
+                showMessage('Пожалуйста, заполните все поля');
+                return;
+            }
+
+            if (!isValidEmail(email)) {
+                showMessage('Пожалуйста, введите корректный email');
+                return;
+            }
+
+            if (password.length < 6) {
+                showMessage('Пароль должен содержать минимум 6 символов');
+                return;
+            }
+
+            if (password !== confirmPassword) {
+                showMessage('Пароли не совпадают');
+                return;
+            }
+
+            if (!isStrongPassword(password)) {
+                showMessage('Пароль должен содержать минимум 8 символов, букву и цифру');
+                return;
+            }
+
+            button.innerHTML = '<span class="loader"></span>';
+            button.disabled = true;
+
+            alt.emit('auth:register', email, password);
+        }
+
+        function switchToLogin() {
+            alt.emit('auth:switchToLogin');
+        }
+
+        function showMessage(text, type = 'error') {
+            const messageElement = document.getElementById('message');
+            messageElement.textContent = text;
+            messageElement.style.color = type === 'error' ? '#ff4444' : '#4CAF50';
+        }
+
+        function isValidEmail(email) {
+            return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+        }
+
+        function isStrongPassword(password) {
+            // Минимум 8 символов, одна буква, одна цифра
+            return /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$/.test(password);
+        }
+
+        // Обработка ответа от сервера
+        alt.on('auth:response', (message) => {
+            const button = document.getElementById('registerButton');
+            button.innerHTML = 'Зарегистрироваться';
+            button.disabled = false;
+            showMessage(message, message.includes('успешно') ? 'success' : 'error');
+        });
+
+        // Обработка Enter на полях ввода
+        document.querySelectorAll('input').forEach(input => {
+            input.addEventListener('keypress', (e) => {
+                if (e.key === 'Enter') {
+                    register();
+                }
+            });
+        });
+    </script>
+</body>
+</html>

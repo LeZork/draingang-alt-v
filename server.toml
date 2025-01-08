@@ -1,0 +1,31 @@
+name = 'Drain Gang Server | Russia Vladivostok'
+port = 7788
+players = 128
+# password = 'Alina168363'
+announce = true
+token = 'c60993c1-4aae-4aed-a45d-fd68a88b0c8e'
+gamemode = 'Roleplay'
+website = 'https://draingang.myarena.site/'
+language = 'ru'
+description = 'Drain Gang Sample Server'
+modules = ['csharp-module', 'js-module']
+resources = ['database',  'chat', 'money', 'auth', 'hud', 'commands', 'nametags', 'noclip', 'appearance', 'rent', 'bank', 'houses', 'admin-panel', 'sounds', 'vehicle-lock', 'car-shop', 'tuning', 'nitro', 'radio', 'roxanne', 'elegyrh7', 'sunrise1', 'zr380c', 'kawaii', 'shrek', 'map', 'blip', 'jobs', 'timer', 'pointing', 'altv-sit', 'voice']
+debug = true
+enableSyncedMetaData = true
+# Spawn player automatically at 0,0,71 after connect
+#spawnAfterConnect = true
+[voice]
+streamingTickRate = 10
+# The bitrate of the voice server
+bitrate = 64000
+# The secret for the external server (only needed when using externalHost)
+# The secret must consist of numeric values only
+externalSecret = "1234567890"
+# The external host address (leave 127.0.0.1, if voice-server is on same machine)
+externalHost = "127.0.0.1"
+# The external host port
+externalPort = 7798
+# The external host public address (should be the ip address of your server, not localhost!)
+externalPublicHost = "185.3.172.83"
+# The external host public port
+externalPublicPort = 7799

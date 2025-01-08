@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script src="jscolor.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<div id='app'>
+    <div class='main_box'>
+        <button class="close-button" @click="closeMenu">✖</button> <!-- Кнопка закрытия меню -->
+        <div class='main_box_header'>
+            <div class='main_box_header_logo'></div>
+            <div class='main_box_header_name'> {{name}}</div>
+        </div>
+        <div class='main_box_content'>
+            <div class='main_box_content_menu'>
+                <div class='main_box_content_menu_сount' v-for='(icon, index) in menu' @click='switch_menu(index)' v-bind:style="[ index === menu_active ? {'border': '1px solid yellow'} : {'border': '1px solid white'}]">
+                <div class='main_icons' v-bind:style="{'content': 'url(./img/icon/' + icon + ')'}"></div>
+                </div>
+            </div>
+            <div class='main_box_content_list'>
+             <div class='main_box_content_list_count' v-for='(mod, index) in mods' :key='index' v-if='mod.max_value !== 0 && mod.show === true'> <!-- v-if='mod.max_value != 0' -->
+                    <img @click='change_data(index, -1)' style='height: 75%; max-width: 10%; transform: rotate(180deg);' src="./img/arrow.svg">
+                    <div class='main_box_content_list_count_text'>{{mod.name}}: {{mod.value}}/{{mod.max_value}} (Цена: {{mod.price}}₽)</div>
+                    <img @click='change_data(index, 1)' style='height: 75%; max-width: 10%;' src="./img/arrow.svg">
+                   
+                </div>
+            </div>
+        </div>
+        <div style='color:white' class='main_box_bottom'>
+        
+        <script src="jscolor.js"></script>
+       {{mods[mods.length - 2].name}}: <input id='color1' class='menu_input' @change='change_color(1)' value="#3399FF80" data-jscolor="{}">
+       {{mods[mods.length - 1].name}}: <input id='color2' class='menu_input' @change='change_color(2)' value="#3399FF80" data-jscolor="{}">
+
+       <!-- Добавляем отображение totalPrice -->
+       <div class="total-price" style="color: white; margin-top: 10px;">
+        Общая стоимость улучшений: {{ totalPrice }}₽
+    </div>
+
+    <button @click="applyChanges" class="apply-button">Применить</button> <!-- Кнопка Применить -->
+       
+    </div>
+    </div>
+</div>
+
+</body>
+
+<script>
+  window.onload = function () {
+     if ('alt' in window) {
+          alt.emit('CU::Window:Load')
+      }
+    };
+</script>
+<script src="jscolor.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+<script src='app.js'></script>
+</html>

@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+        :root {
+            --primary-color: #4CAF50;
+            --error-color: #ff4444;
+            --success-color: #4CAF50;
+            --text-color: #ffffff;
+            --bg-color: rgba(0, 0, 0, 0.85);
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: rgba(0, 0, 0, 0.5);
+            font-family: 'Roboto', sans-serif;
+            color: var(--text-color);
+            backdrop-filter: blur(5px);
+        }
+
+        .container {
+            background: var(--bg-color);
+            padding: 40px;
+            border-radius: 15px;
+            width: 320px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+            transform: scale(0.95);
+            opacity: 0;
+            animation: fadeIn 0.3s ease forwards;
+        }
+
+        @keyframes fadeIn {
+            to {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-weight: 500;
+            letter-spacing: 1px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+            position: relative;
+        }
+
+        input {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+            background: rgba(255, 255, 255, 0.05);
+            color: var(--text-color);
+            box-sizing: border-box;
+            font-size: 14px;
+            transition: all 0.3s ease;
+        }
+
+        input:focus {
+            outline: none;
+            border-color: var(--primary-color);
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            border: none;
+            border-radius: 8px;
+            background: var(--primary-color);
+            color: var(--text-color);
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 15px;
+            font-weight: 500;
+            letter-spacing: 0.5px;
+        }
+
+        button:hover:not(:disabled) {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(76, 175, 80, 0.3);
+        }
+
+        button:active:not(:disabled) {
+            transform: translateY(0);
+        }
+
+        .message {
+            margin-top: 15px;
+            text-align: center;
+            font-size: 14px;
+            min-height: 20px;
+            transition: all 0.3s ease;
+        }
+
+        .switch-form {
+            margin-top: 20px;
+            text-align: center;
+            font-size: 14px;
+            color: rgba(255, 255, 255, 0.7);
+        }
+
+        .switch-form a {
+            color: var(--primary-color);
+            text-decoration: none;
+            cursor: pointer;
+            transition: color 0.3s ease;
+        }
+
+        .switch-form a:hover {
+            color: #45a049;
+        }
+
+        .loader {
+            width: 20px;
+            height: 20px;
+            border: 2px solid #FFF;
+            border-bottom-color: transparent;
+            border-radius: 50%;
+            display: inline-block;
+            box-sizing: border-box;
+            animation: rotation 1s linear infinite;
+        }
+
+        .input-icon {
+            position: absolute;
+            right: 12px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: rgba(255, 255, 255, 0.5);
+            cursor: pointer;
+        }
+
+        .password-toggle {
+            cursor: pointer;
+            user-select: none;
+        }
+
+        @keyframes rotation {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        @keyframes shake {
+            0%, 100% { transform: translateX(0); }
+            25% { transform: translateX(-5px); }
+            75% { transform: translateX(5px); }
+        }
+
+        .error-shake {
+            animation: shake 0.5s ease;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .fade-in {
+            animation: fadeIn 0.3s ease forwards;
+        }
+
+        .error-shake {
+            animation: shake 0.5s ease;
+            border-color: var(--error-color) !important;
+        }
+
+        @keyframes shake {
+            0%, 100% { transform: translateX(0); }
+            25% { transform: translateX(-5px); }
+            75% { transform: translateX(5px); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Вход</h2>
+        <div class="form-group">
+            <input type="email" id="email" placeholder="Email" required>
+        </div>
+        <div class="form-group">
+            <input type="password" id="password" placeholder="Пароль" required>
+        </div>
+        <button onclick="login()" id="loginButton">Войти</button>
+        <div id="message" class="message"></div>
+        <div class="switch-form">
+            Нет аккаунта? <a onclick="switchToRegister()">Зарегистрироваться</a>
+        </div>
+    </div>
+
+    <script>
+        if (window.alt === undefined) {
+            window.alt = {
+                emit: () => {},
+                on: () => {}
+            };
+        }
+
+        function login() {
+            const email = document.getElementById('email').value.trim();
+            const password = document.getElementById('password').value;
+            const button = document.getElementById('loginButton');
+
+            if (!email || !password) {
+                showMessage('Пожалуйста, заполните все поля');
+                return;
+            }
+
+            if (!isValidEmail(email)) {
+                showMessage('Некорректный email адрес');
+                document.getElementById('email').classList.add('error-shake');
+                setTimeout(() => {
+                    document.getElementById('email').classList.remove('error-shake');
+                }, 500);
+                return;
+            }
+
+            if (password.length < 6) {
+                showMessage('Пароль должен содержать минимум 6 символов');
+                document.getElementById('password').classList.add('error-shake');
+                setTimeout(() => {
+                    document.getElementById('password').classList.remove('error-shake');
+                }, 500);
+                return;
+            }
+
+            button.innerHTML = '<span class="loader"></span>';
+            button.disabled = true;
+
+            const timeoutId = setTimeout(() => {
+                button.innerHTML = 'Войти';
+                button.disabled = false;
+                showMessage('Превышено время ожидания. Попробуйте снова.');
+            }, 10000);
+
+            alt.emit('auth:login', email, password);
+        }
+
+        function switchToRegister() {
+            alt.emit('auth:switchToRegister');
+        }
+
+        function showMessage(text, type = 'error') {
+            const messageElement = document.getElementById('message');
+            messageElement.textContent = text;
+            messageElement.style.color = type === 'error' ? 'var(--error-color)' : 'var(--success-color)';
+            messageElement.classList.add('fade-in');
+            
+            playSound(type);
+
+            setTimeout(() => {
+                messageElement.classList.remove('fade-in');
+            }, 300);
+        }
+
+        function isValidEmail(email) {
+            return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+        }
+
+        function playSound(type) {
+            const audio = new Audio();
+            audio.src = type === 'error' ? 'html/sounds/error.mp3' : 'html/sounds/success.mp3';
+            audio.play();
+        }
+
+        // Обработка ответа от сервера
+        alt.on('auth:response', (message) => {
+            const button = document.getElementById('loginButton');
+            button.innerHTML = 'Войти';
+            button.disabled = false;
+            showMessage(message, message.includes('успешно') ? 'success' : 'error');
+        });
+
+        // Обработка Enter на полях ввода
+        document.querySelectorAll('input').forEach(input => {
+            input.addEventListener('keypress', (e) => {
+                if (e.key === 'Enter') {
+                    login();
+                }
+            });
+        });
+    </script>
+</body>
+</html>

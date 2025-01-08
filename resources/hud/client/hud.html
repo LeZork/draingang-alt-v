@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HUD</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="hud-container">
+        <!-- Время и дата -->
+        <div class="datetime-container">
+            <div class="time">
+                <i class="fas fa-clock"></i>
+                <span id="time">00:00</span>
+            </div>
+            <div class="date" id="date">1 января 2024</div>
+        </div>
+
+        <!-- Основная информация -->
+        <div class="stats-container">
+            <!-- Деньги -->
+            <div class="stat-item">
+                <i class="fas fa-ruble-sign"></i>
+                <span id="money">0</span>
+            </div>
+
+            <!-- Здоровье -->
+            <div class="stat-item">
+                <i class="fas fa-heart"></i>
+                <div class="health-bar">
+                    <div id="health-fill" class="health-fill"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Спидометр (скрыт по умолчанию) -->
+        <div id="speedometer" class="speedometer hidden">
+            <div class="speed">
+                <span id="speed-value">0</span>
+                <span class="speed-unit">км/ч</span>
+            </div>
+            <div class="vehicle-indicators">
+                <i id="engine" class="fas fa-car-battery"></i>
+                <i id="seatbelt" class="fas fa-user-lock"></i>
+                <i id="lights" class="fas fa-lightbulb"></i>
+                <i id="doors" class="fas fa-door-closed"></i>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html> 

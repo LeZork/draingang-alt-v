@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Создание персонажа</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .container {
+            position: fixed;
+            left: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 300px;
+            max-height: 80vh;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 8px;
+            color: white;
+            overflow-y: auto;
+            scrollbar-width: thin;
+            scrollbar-color: rgba(255, 255, 255, 0.3) rgba(0, 0, 0, 0.3);
+        }
+
+        .container::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        .container::-webkit-scrollbar-track {
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 4px;
+        }
+
+        .container::-webkit-scrollbar-thumb {
+            background: rgba(255, 255, 255, 0.3);
+            border-radius: 4px;
+        }
+
+        .container::-webkit-scrollbar-thumb:hover {
+            background: rgba(255, 255, 255, 0.5);
+        }
+
+        h2 {
+            position: sticky;
+            top: 0;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 10px 0;
+            margin: -20px -20px 20px -20px;
+            padding: 20px;
+            z-index: 1;
+        }
+
+        #save-btn {
+            position: sticky;
+            bottom: -20px;
+            margin: 20px -20px -20px -20px;
+            padding: 15px;
+            width: calc(100% + 40px);
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        #save-btn:hover {
+            background-color: #45a049;
+        }
+
+        .control-group:last-of-type {
+            margin-bottom: 60px;
+        }
+
+        .container {
+            scroll-behavior: smooth;
+        }
+
+        .control-group:focus-within {
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 10px;
+            margin: 0 -10px 15px -10px;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+
+        .control-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        select, input[type="range"] {
+            width: 100%;
+            padding: 5px;
+            margin-bottom: 10px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            color: white;
+            border-radius: 4px;
+        }
+
+        select {
+            height: 30px;
+            width: 100%;
+            padding: 5px;
+            margin-bottom: 10px;
+            background-color: rgba(0, 0, 0, 0.8);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            color: white;
+            border-radius: 4px;
+            cursor: pointer;
+            outline: none;
+        }
+
+        /* Стили для опций в выпадающем списке */
+        select option {
+            background-color: rgba(0, 0, 0, 0.9);
+            color: white;
+            padding: 10px;
+        }
+
+        /* Стили при наведении на опции */
+        select option:hover {
+            background-color: rgba(50, 50, 50, 0.9);
+        }
+
+        /* Стили для активной опции */
+        select option:checked {
+            background-color: rgba(70, 70, 70, 0.9);
+        }
+
+        /* Стили при фокусе на селекторе */
+        select:focus {
+            border-color: rgba(255, 255, 255, 0.5);
+            box-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
+        }
+
+        /* Стили для кнопок зума */
+        #zoom-controls {
+            position: fixed;
+            right: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            z-index: 1000;
+        }
+
+        /* Стили для кнопок поворота */
+        #rotation-controls {
+            position: fixed;
+            left: 50%;
+            bottom: 30px;
+            transform: translateX(-50%);
+            display: flex;
+            gap: 20px;
+            z-index: 1000;
+        }
+
+        /* Общие стили для всех кнопок управления */
+        .control-btn {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: rgba(0, 0, 0, 0.7);
+            border: 2px solid white;
+            color: white;
+            font-size: 24px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background-color 0.3s;
+        }
+
+        .control-btn:hover {
+            background-color: rgba(0, 0, 0, 0.9);
+        }
+
+        /* Добавляем стили для анимаций */
+        input[type="range"] {
+            transition: transform 0.1s ease;
+        }
+
+        .saving {
+            opacity: 0.7;
+            pointer-events: none;
+        }
+
+        .success-message {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(76, 175, 80, 0.9);
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            z-index: 2000;
+            animation: fadeIn 0.3s ease;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+    <script src="character-creator.js" type="text/javascript"></script>
+</head>
+<body>
+    <!-- Основной контейнер с настройками -->
+    <div class="container">
+        <h2>Создание персонажа</h2>
+        
+        <div class="control-group">
+            <label>Пол</label>
+            <select id="gender" onchange="setGender(this.value)">
+                <option value="male">Мужской</option>
+                <option value="female">Женский</option>
+            </select>
+        </div>
+
+        <!-- Основные черты лица -->
+        <div class="control-group">
+            <label>Лицо</label>
+            <input type="range" id="face" min="0" max="45" value="0" oninput="updateCharacter()">
+        </div>
+
+        <div class="control-group">
+            <label>Цвет кожи</label>
+            <input type="range" id="skinTone" min="0" max="12" value="0" oninput="updateCharacter()">
+        </div>
+
+        <!-- Волосы -->
+        <div class="control-group">
+            <label>Прическа</label>
+            <input type="range" id="hair" min="0" max="73" value="0" oninput="updateCharacter()">
+        </div>
+
+        <div class="control-group">
+            <label>Цвет волос</label>
+            <select id="hairColor" onchange="updateCharacter()">
+                <option value="0">Черный</option>
+                <option value="1">Темно-коричневый</option>
+                <option value="2">Коричневый</option>
+                <option value="3">Каштановый</option>
+                <option value="4">Рыжий</option>
+                <option value="5">Блонд</option>
+                <option value="6">Светлый блонд</option>
+                <option value="7">Седой</option>
+                <option value="8">Белый</option>
+            </select>
+        </div>
+
+        <!-- Новые опции для лица -->
+        <div class="control-group">
+            <label>Брови</label>
+            <input type="range" id="eyebrows" min="0" max="33" value="0" oninput="updateCharacter()">
+            <select id="eyebrowsColor" onchange="updateCharacter()">
+                <option value="0">Черный</option>
+                <option value="1">Темно-коричневый</option>
+                <option value="2">Коричневый</option>
+                <option value="3">Каштановый</option>
+                <option value="4">Рыжий</option>
+                <option value="5">Блонд</option>
+                <option value="6">Светлый блонд</option>
+                <option value="7">Седой</option>
+                <option value="8">Белый</option>
+            </select>
+        </div>
+
+        <div class="control-group">
+            <label>Борода</label>
+            <input type="range" id="facialHair" min="0" max="28" value="0" oninput="updateCharacter()">
+            <select id="facialHairColor" onchange="updateCharacter()">
+                <option value="0">Черный</option>
+                <option value="1">Темно-коричневый</option>
+                <option value="2">Коричневый</option>
+                <option value="3">Каштановый</option>
+                <option value="4">Рыжий</option>
+                <option value="5">Блонд</option>
+                <option value="6">Светлый блонд</option>
+                <option value="7">Седой</option>
+                <option value="8">Белый</option>
+            </select>
+        </div>
+
+        <!-- Черты лица -->
+        <div class="control-group">
+            <label>Форма носа</label>
+            <input type="range" id="noseWidth" min="-1" max="1" step="0.1" value="0" oninput="updateCharacter()">
+        </div>
+
+        <div class="control-group">
+            <label>Высота носа</label>
+            <input type="range" id="noseHeight" min="-1" max="1" step="0.1" value="0" oninput="updateCharacter()">
+        </div>
+
+        <div class="control-group">
+            <label>Форма губ</label>
+            <input type="range" id="lipThickness" min="-1" max="1" step="0.1" value="0" oninput="updateCharacter()">
+        </div>
+
+        <div class="control-group">
+            <label>Форма челюсти</label>
+            <input type="range" id="jawWidth" min="-1" max="1" step="0.1" value="0" oninput="updateCharacter()">
+        </div>
+
+        <div class="control-group">
+            <label>Высота скул</label>
+            <input type="range" id="cheekboneHeight" min="-1" max="1" step="0.1" value="0" oninput="updateCharacter()">
+        </div>
+
+        <!-- Дополнительные опции -->
+        <div class="control-group">
+            <label>Старение</label>
+            <input type="range" id="ageing" min="0" max="14" value="0" oninput="updateCharacter()">
+        </div>
+
+        <div class="control-group">
+            <label>Комплекция</label>
+            <input type="range" id="complexion" min="0" max="11" value="0" oninput="updateCharacter()">
+        </div>
+
+        <button id="save-btn" onclick="saveCharacter()">Сохранить</button>
+    </div>
+
+    <!-- Кнопки зума -->
+    <div id="zoom-controls">
+        <button class="control-btn" onclick="zoomIn()">+</button>
+        <button class="control-btn" onclick="zoomOut()">−</button>
+    </div>
+
+    <!-- Кнопки поворота -->
+    <div id="rotation-controls">
+        <button class="control-btn rotation-btn" data-direction="left">⟲</button>
+        <button class="control-btn rotation-btn" data-direction="right">⟳</button>
+    </div>
+</body>
+</html>

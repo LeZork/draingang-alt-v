@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Административная панель</title>
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .card {
+            margin-bottom: 20px;
+        }
+        h1, h2 {
+            color: #343a40;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-5 text-center">Административная панель</h1>
+        
+        <div id="server-stats" class="mt-4">
+            <div class="card">
+                <div class="card-header">
+                    <h2>Статистика сервера</h2>
+                </div>
+                <div class="card-body">
+                    <p><strong>Время работы:</strong> <span id="uptime"></span> секунд</p>
+                    <p><strong>Игроки онлайн:</strong> <span id="online-players"></span></p>
+                    <p><strong>Посещения:</strong> <span id="visits"></span></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center mt-4">
+            <input type="text" id="search-input" class="form-control" placeholder="Поиск игрока по имени или ID" oninput="filterPlayers()">
+        </div>
+        
+        <div id="player-list" class="mt-4">
+            <div class="card">
+                <div class="card-header">
+                    <h2>Список игроков</h2>
+                </div>
+                <div class="card-body">
+                    <ul id="players" class="list-group"></ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center mt-4">
+            <button class="btn btn-primary" onclick="fetchServerStats(); fetchPlayerList();">Обновить данные</button>
+        </div>
+
+        <div class="text-center mt-4">
+            <h2>Действия с игроками</h2>
+            <input type="text" id="player-id" class="form-control" placeholder="ID игрока" />
+            <button class="btn btn-danger" onclick="kickPlayer()">Кикнуть игрока</button>
+            <button class="btn btn-warning" onclick="giveWeapon()">Выдать оружие</button>
+            <button class="btn btn-success" onclick="addMoney()">Дать денег</button>
+            <button class="btn btn-info" onclick="toggleMessageInputs()">Отправить сообщение</button>
+            
+            <div id="message-inputs" style="display: none; margin-top: 10px;">
+                <input type="text" id="message-content" class="form-control" placeholder="Сообщение" />
+                <button class="btn btn-success mt-2" onclick="sendMessage()">Отправить сообщение</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script>
+        let allPlayers = []; // Хранит всех игроков для фильтрации
+
+        async function fetchServerStats() {
+            const response = await fetch('/acp/dashboard?t=alina'); // Замените 'alina' на ваш секретный токен
+            const data = await response.json();
+            document.getElementById('uptime').innerText = data.uptime;
+            document.getElementById('online-players').innerText = data.onlinePlayers;
+            document.getElementById('visits').innerText = data.visits;
+        }
+    
+        async function fetchPlayerList() {
+            const response = await fetch('/acp/playerlist?t=alina'); // Замените 'alina' на ваш секретный токен
+            allPlayers = await response.json(); // Сохраняем всех игроков
+            updatePlayerList(allPlayers); // Обновляем список игроков
+        }
+
+        function updatePlayerList(players) {
+            const playerList = document.getElementById('players');
+            playerList.innerHTML = ''; // Очистить список перед обновлением
+            players.forEach(player => {
+                const li = document.createElement('li');
+                li.className = 'list-group-item';
+                li.innerText = `${player.name} (ID: ${player.id})`;
+                playerList.appendChild(li);
+            });
+        }
+
+        function filterPlayers() {
+            const searchValue = document.getElementById('search-input').value.toLowerCase();
+            const filteredPlayers = allPlayers.filter(player => 
+                player.name.toLowerCase().includes(searchValue) || 
+                player.id.toString().includes(searchValue)
+            );
+            updatePlayerList(filteredPlayers); // Обновляем список с отфильтрованными игроками
+        }
+
+        async function kickPlayer() {
+            const playerId = document.getElementById('player-id').value;
+            const response = await fetch(`/acp/kickplayer?t=alina&id=${playerId}`, { method: 'POST' });
+            if (response.ok) {
+                alert('Игрок кикнут!');
+                fetchPlayerList(); // Обновляем список игроков
+            } else {
+                alert('Ошибка при кике игрока!');
+            }
+        }
+
+        async function giveWeapon() {
+            const playerId = document.getElementById('player-id').value;
+            const weaponName = prompt("Введите название оружия для выдачи:");
+            const response = await fetch(`/acp/giveweapon?t=alina&id=${playerId}&weapon=${weaponName}`, { method: 'POST' });
+            if (response.ok) {
+                alert('Оружие выдано игроку!');
+                fetchPlayerList(); // Обновляем список игроков
+            } else {
+                alert('Ошибка при выдаче оружия!');
+            }
+        }
+
+        async function sendMessage() {
+            const playerId = document.getElementById('player-id').value; // Используем ID игрока из поля
+            const message = document.getElementById('message-content').value;
+            
+            const response = await fetch(`/acp/msg?t=alina&id=${playerId}&msg=${encodeURIComponent(message)}`, { method: 'POST' });
+            if (response.ok) {
+                alert('Сообщение отправлено!');
+            } else {
+                alert('Ошибка при отправке сообщения!');
+            }
+        }
+
+        async function addMoney() {
+            const playerId = document.getElementById('player-id').value; // Используем ID игрока из поля
+            const amount = prompt("Введите сумму:");
+            
+            const response = await fetch(`/acp/addmoney?t=alina&id=${playerId}&amount=${encodeURIComponent(amount)}`, { method: 'POST' });
+            if (response.ok) {
+                alert('Деньги отправлены!');
+            } else {
+                alert('Ошибка при отправке денег!');
+            }
+        }
+
+        function toggleMessageInputs() {
+            const messageInputs = document.getElementById('message-inputs');
+            messageInputs.style.display = messageInputs.style.display === 'none' ? 'block' : 'none';
+        }
+    
+        // Вызов функций при загрузке страницы
+        window.onload = function() {
+            fetchServerStats();
+            fetchPlayerList();
+        };
+    </script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+# IP address of the external voice server used to receive the alt:V servers voice connection
+# Can be a private ip or 0.0.0.0 to accept all
+host = '0.0.0.0'
+# Port used in combination with the ip above
+port = 7798
+# IP address which is used to receive the clients connections
+# Should be a public ip or 0.0.0.0 to accept all
+playerHost = '0.0.0.0'
+# Port used for the clients connections
+playerPort = 7799
+# Secret shared between the alt:V server and the external voice server
+secret = 1234567890

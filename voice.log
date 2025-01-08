@@ -1,0 +1,1539 @@
+[17:21:43] alt:V Voice Server 16.2.26 (release)
+[17:21:43] Main thread started (ThreadId: 12496)
+[17:21:43] Starting voice server on 0.0.0.0:7798
+[17:21:43][17:21:43][17:21:43] Player host thread started (ThreadId: 4076)[17:21:43] Server host thread started (ThreadId: 12304) Player streamer #1 thread started (ThreadId: 5764)
+
+
+[17:21:43] Connected to alt:V server
+[17:21:43] Channel 1 created. Priority: 0 | Filter: 0
+[17:21:43] Channel 2 created. Priority: 0 | Filter: 0
+[17:21:43] Channel 3 created. Priority: 0 | Filter: 0
+[17:22:01] Player connected 1
+[17:22:01] Player 1 has been added to channel 1
+[17:22:01] OnVoiceChannelUpdatePlayer 1 1
+[17:22:01] Player 1 has been added to channel 2
+[17:22:01] OnVoiceChannelUpdatePlayer 1 2
+[17:22:01] Player 1 has been added to channel 3
+[17:22:01] OnVoiceChannelUpdatePlayer 1 3
+[17:22:01] Player 1 has been removed from channel 1
+[17:22:01] OnVoiceChannelUpdatePlayer 1 3
+[17:22:01] Player 1 has been removed from channel 2
+[17:22:01] OnVoiceChannelUpdatePlayer 1 3
+[17:22:01] Player 1 has been removed from channel 3
+[17:22:01] OnVoiceChannelUpdatePlayer 1 3
+[17:22:01] Player 1 has been added to channel 2
+[17:22:01] OnVoiceChannelUpdatePlayer 1 3
+[17:22:03] Player 1 has changed his dimension from: 0 to: 501
+[17:22:16] Player 1 has changed his dimension from: 501 to: 0
+[17:27:15] Disconnected from alt:V server
+[17:27:15] Player disconnected 1 0
+[17:27:15] Remove player 1 0
+[17:27:18] Connected to alt:V server
+[17:27:26] Channel 1 created. Spatial: true | MaxDistance: 4.99886
+[17:27:26] Channel 2 created. Spatial: true | MaxDistance: 9.99924
+[17:27:26] Channel 3 created. Spatial: true | MaxDistance: 20
+[17:27:28] Player connected 1
+[17:27:28] Player 1 has been added to channel 1
+[17:27:28] OnVoiceChannelUpdatePlayer 1 1
+[17:27:28] Player 1 has been added to channel 2
+[17:27:28] OnVoiceChannelUpdatePlayer 1 2
+[17:27:28] Player 1 has been added to channel 3
+[17:27:28] OnVoiceChannelUpdatePlayer 1 3
+[17:27:28] Player 1 has been removed from channel 1
+[17:27:28] OnVoiceChannelUpdatePlayer 1 3
+[17:27:28] Player 1 has been removed from channel 2
+[17:27:28] OnVoiceChannelUpdatePlayer 1 3
+[17:27:28] Player 1 has been removed from channel 3
+[17:27:28] OnVoiceChannelUpdatePlayer 1 3
+[17:27:28] Player 1 has been added to channel 2
+[17:27:28] OnVoiceChannelUpdatePlayer 1 3
+[17:27:29] Player 1 has changed his dimension from: 0 to: 501
+[17:27:40] Player 1 has changed his dimension from: 501 to: 0
+[17:32:06] Disconnected from alt:V server
+[17:32:06] Player disconnected 1 0
+[17:32:06] Remove player 1 0
+[17:32:08] Connected to alt:V server
+[17:32:17] Channel 1 created. Spatial: true | MaxDistance: 4.99886
+[17:32:17] Channel 2 created. Spatial: true | MaxDistance: 9.99924
+[17:32:17] Channel 3 created. Spatial: true | MaxDistance: 20
+[17:32:23] Player connected 1
+[17:32:23] Player 1 has been added to channel 1
+[17:32:23] OnVoiceChannelUpdatePlayer 1 1
+[17:32:23] Player 1 has been added to channel 2
+[17:32:23] OnVoiceChannelUpdatePlayer 1 2
+[17:32:23] Player 1 has been added to channel 3
+[17:32:23] OnVoiceChannelUpdatePlayer 1 3
+[17:32:23] Player 1 has been removed from channel 1
+[17:32:23] OnVoiceChannelUpdatePlayer 1 3
+[17:32:23] Player 1 has been removed from channel 2
+[17:32:23] OnVoiceChannelUpdatePlayer 1 3
+[17:32:23] Player 1 has been removed from channel 3
+[17:32:23] OnVoiceChannelUpdatePlayer 1 3
+[17:32:23] Player 1 has been added to channel 2
+[17:32:23] OnVoiceChannelUpdatePlayer 1 3
+[17:32:24] Player 1 has changed his dimension from: 0 to: 501
+[17:32:33] Player 1 has changed his dimension from: 501 to: 0
+[17:44:20] Disconnected from alt:V server
+[17:44:20] Player disconnected 1 0
+[17:44:20] Remove player 1 0
+[17:45:13] Connected to alt:V server
+[17:45:22] Channel 1 created. Spatial: true | MaxDistance: 4.99886
+[17:45:22] Channel 2 created. Spatial: true | MaxDistance: 9.99924
+[17:45:22] Channel 3 created. Spatial: true | MaxDistance: 20
+[17:45:28] Player connected 1
+[17:45:28] Player 1 has been added to channel 1
+[17:45:28] OnVoiceChannelUpdatePlayer 1 1
+[17:45:28] Player 1 has been added to channel 2
+[17:45:28] OnVoiceChannelUpdatePlayer 1 2
+[17:45:28] Player 1 has been added to channel 3
+[17:45:28] OnVoiceChannelUpdatePlayer 1 3
+[17:45:28] Player 1 has been removed from channel 1
+[17:45:28] OnVoiceChannelUpdatePlayer 1 3
+[17:45:28] Player 1 has been removed from channel 2
+[17:45:28] OnVoiceChannelUpdatePlayer 1 3
+[17:45:28] Player 1 has been removed from channel 3
+[17:45:28] OnVoiceChannelUpdatePlayer 1 3
+[17:45:28] Player 1 has been added to channel 2
+[17:45:28] OnVoiceChannelUpdatePlayer 1 3
+[17:45:29] Player 1 has changed his dimension from: 0 to: 501
+[17:45:40] Player 1 has changed his dimension from: 501 to: 0
+[18:08:36] Player disconnected 1 3
+[18:08:36] Player 1 has been removed from channel 1
+[18:08:36] OnVoiceChannelUpdatePlayer 1 2
+[18:08:36] Player 1 has been removed from channel 2
+[18:08:36] OnVoiceChannelUpdatePlayer 1 1
+[18:08:36] Player 1 has been removed from channel 3
+[18:08:36] OnVoiceChannelUpdatePlayer 1 0
+[18:08:36] Remove player 1 0
+[18:08:39] Player 1 has been added to channel 1
+[18:08:39] OnVoiceChannelUpdatePlayer 1 1
+[18:08:39] Player 1 has been added to channel 2
+[18:08:39] OnVoiceChannelUpdatePlayer 1 2
+[18:08:39] Player 1 has been added to channel 3
+[18:08:39] OnVoiceChannelUpdatePlayer 1 3
+[18:08:39] Player 1 has been removed from channel 1
+[18:08:39] OnVoiceChannelUpdatePlayer 1 3
+[18:08:39] Player 1 has been removed from channel 2
+[18:08:39] OnVoiceChannelUpdatePlayer 1 3
+[18:08:39] Player 1 has been removed from channel 3
+[18:08:39] OnVoiceChannelUpdatePlayer 1 3
+[18:08:39] Player 1 has been added to channel 2
+[18:08:39] OnVoiceChannelUpdatePlayer 1 3
+[18:08:39] Player connected 1
+[18:09:13] Player 1 has been removed from channel 1
+[18:09:13] OnVoiceChannelUpdatePlayer 1 2
+[18:09:13] Player 1 has been removed from channel 2
+[18:09:13] OnVoiceChannelUpdatePlayer 1 1
+[18:09:13] Player 1 has been removed from channel 3
+[18:09:13] OnVoiceChannelUpdatePlayer 1 0
+[18:09:14] Player disconnected 1 0
+[18:09:14] Remove player 1 0
+[18:10:37] Disconnected from alt:V server
+[18:10:39] Connected to alt:V server
+[18:10:49] Channel 1 created. Spatial: true | MaxDistance: 4.99886
+[18:10:49] Channel 2 created. Spatial: true | MaxDistance: 9.99924
+[18:10:49] Channel 3 created. Spatial: true | MaxDistance: 20
+[18:11:34] Player connected 1
+[18:11:34] Player 1 has been added to channel 1
+[18:11:34] OnVoiceChannelUpdatePlayer 1 1
+[18:11:34] Player 1 has been added to channel 2
+[18:11:34] OnVoiceChannelUpdatePlayer 1 2
+[18:11:34] Player 1 has been added to channel 3
+[18:11:34] OnVoiceChannelUpdatePlayer 1 3
+[18:11:34] Player 1 has been removed from channel 1
+[18:11:34] OnVoiceChannelUpdatePlayer 1 3
+[18:11:34] Player 1 has been removed from channel 2
+[18:11:34] OnVoiceChannelUpdatePlayer 1 3
+[18:11:34] Player 1 has been removed from channel 3
+[18:11:34] OnVoiceChannelUpdatePlayer 1 3
+[18:11:34] Player 1 has been added to channel 2
+[18:11:34] OnVoiceChannelUpdatePlayer 1 3
+[18:11:35] Player 1 has changed his dimension from: 0 to: 501
+[18:11:48] Player 1 has changed his dimension from: 501 to: 0
+[18:31:19] Disconnected from alt:V server
+[18:31:20] Player disconnected 1 0
+[18:31:20] Remove player 1 0
+[18:31:22] Connected to alt:V server
+[18:31:31] Channel 1 created. Spatial: true | MaxDistance: 4.99886
+[18:31:31] Channel 2 created. Spatial: true | MaxDistance: 9.99924
+[18:31:31] Channel 3 created. Spatial: true | MaxDistance: 20
+[18:31:39] Player connected 1
+[18:31:39] Player 1 has been added to channel 1
+[18:31:39] OnVoiceChannelUpdatePlayer 1 1
+[18:31:39] Player 1 has been added to channel 2
+[18:31:39] OnVoiceChannelUpdatePlayer 1 2
+[18:31:39] Player 1 has been added to channel 3
+[18:31:39] OnVoiceChannelUpdatePlayer 1 3
+[18:31:39] Player 1 has been removed from channel 1
+[18:31:39] OnVoiceChannelUpdatePlayer 1 3
+[18:31:39] Player 1 has been removed from channel 2
+[18:31:39] OnVoiceChannelUpdatePlayer 1 3
+[18:31:39] Player 1 has been removed from channel 3
+[18:31:39] OnVoiceChannelUpdatePlayer 1 3
+[18:31:39] Player 1 has been added to channel 2
+[18:31:39] OnVoiceChannelUpdatePlayer 1 3
+[18:31:40] Player 1 has changed his dimension from: 0 to: 501
+[18:31:51] Player 1 has changed his dimension from: 501 to: 0
+[18:33:22] Disconnected from alt:V server
+[18:33:22] Player disconnected 1 0
+[18:33:22] Remove player 1 0
+[18:33:25] Connected to alt:V server
+[18:33:33] Channel 1 created. Spatial: true | MaxDistance: 4.99886
+[18:33:33] Channel 2 created. Spatial: true | MaxDistance: 9.99924
+[18:33:33] Channel 3 created. Spatial: true | MaxDistance: 20
+[18:33:39] Player connected 1
+[18:33:39] Player 1 has been added to channel 1
+[18:33:39] OnVoiceChannelUpdatePlayer 1 1
+[18:33:39] Player 1 has been added to channel 2
+[18:33:39] OnVoiceChannelUpdatePlayer 1 2
+[18:33:39] Player 1 has been added to channel 3
+[18:33:39] OnVoiceChannelUpdatePlayer 1 3
+[18:33:39] Player 1 has been removed from channel 1
+[18:33:39] OnVoiceChannelUpdatePlayer 1 3
+[18:33:39] Player 1 has been removed from channel 2
+[18:33:39] OnVoiceChannelUpdatePlayer 1 3
+[18:33:39] Player 1 has been removed from channel 3
+[18:33:39] OnVoiceChannelUpdatePlayer 1 3
+[18:33:39] Player 1 has been added to channel 2
+[18:33:39] OnVoiceChannelUpdatePlayer 1 3
+[18:33:40] Player 1 has changed his dimension from: 0 to: 501
+[18:33:50] Player 1 has changed his dimension from: 501 to: 0
+[18:34:11] Player 1 has changed his vehicle from: 0 to: 11
+[18:36:02] Disconnected from alt:V server
+[18:36:02] Player disconnected 1 0
+[18:36:02] Remove player 1 0
+[18:36:08] Connected to alt:V server
+[18:36:16] Channel 1 created. Spatial: true | MaxDistance: 4.99886
+[18:36:16] Channel 2 created. Spatial: true | MaxDistance: 9.99924
+[18:36:16] Channel 3 created. Spatial: true | MaxDistance: 20
+[18:36:26] Player connected 1
+[18:36:26] Player 1 has been added to channel 1
+[18:36:26] OnVoiceChannelUpdatePlayer 1 1
+[18:36:26] Player 1 has been added to channel 2
+[18:36:26] OnVoiceChannelUpdatePlayer 1 2
+[18:36:26] Player 1 has been added to channel 3
+[18:36:26] OnVoiceChannelUpdatePlayer 1 3
+[18:36:26] Player 1 has been removed from channel 1
+[18:36:26] OnVoiceChannelUpdatePlayer 1 3
+[18:36:26] Player 1 has been removed from channel 2
+[18:36:26] OnVoiceChannelUpdatePlayer 1 3
+[18:36:26] Player 1 has been removed from channel 3
+[18:36:26] OnVoiceChannelUpdatePlayer 1 3
+[18:36:26] Player 1 has been added to channel 2
+[18:36:26] OnVoiceChannelUpdatePlayer 1 3
+[18:36:27] Player 1 has changed his dimension from: 0 to: 501
+[18:36:27] Player 1 has changed his vehicle from: 0 to: 0
+[18:36:37] Player 1 has changed his dimension from: 501 to: 0
+[18:39:01] Disconnected from alt:V server
+[18:39:01] Player disconnected 1 0
+[18:39:01] Remove player 1 0
+[18:39:06] Connected to alt:V server
+[18:39:15] Channel 1 created. Spatial: true | MaxDistance: 4.99886
+[18:39:15] Channel 2 created. Spatial: true | MaxDistance: 9.99924
+[18:39:15] Channel 3 created. Spatial: true | MaxDistance: 20
+[18:39:25] Player connected 1
+[18:39:25] Player 1 has been added to channel 1
+[18:39:25] OnVoiceChannelUpdatePlayer 1 1
+[18:39:25] Player 1 has been added to channel 2
+[18:39:25] OnVoiceChannelUpdatePlayer 1 2
+[18:39:25] Player 1 has been added to channel 3
+[18:39:25] OnVoiceChannelUpdatePlayer 1 3
+[18:39:25] Player 1 has been removed from channel 1
+[18:39:25] OnVoiceChannelUpdatePlayer 1 3
+[18:39:25] Player 1 has been removed from channel 2
+[18:39:25] OnVoiceChannelUpdatePlayer 1 3
+[18:39:25] Player 1 has been removed from channel 3
+[18:39:25] OnVoiceChannelUpdatePlayer 1 3
+[18:39:25] Player 1 has been added to channel 2
+[18:39:25] OnVoiceChannelUpdatePlayer 1 3
+[18:39:26] Player 1 has changed his dimension from: 0 to: 501
+[18:39:36] Player 1 has changed his dimension from: 501 to: 0
+[18:42:33] Disconnected from alt:V server
+[18:42:33] Player disconnected 1 0
+[18:42:33] Remove player 1 0
+[18:42:42] Connected to alt:V server
+[18:42:51] Channel 1 created. Spatial: true | MaxDistance: 4.99886
+[18:42:51] Channel 2 created. Spatial: true | MaxDistance: 9.99924
+[18:42:51] Channel 3 created. Spatial: true | MaxDistance: 20
+[18:43:00] Player connected 1
+[18:43:00] Player 1 has been added to channel 1
+[18:43:00] OnVoiceChannelUpdatePlayer 1 1
+[18:43:00] Player 1 has been added to channel 2
+[18:43:00] OnVoiceChannelUpdatePlayer 1 2
+[18:43:00] Player 1 has been added to channel 3
+[18:43:00] OnVoiceChannelUpdatePlayer 1 3
+[18:43:00] Player 1 has been removed from channel 1
+[18:43:00] OnVoiceChannelUpdatePlayer 1 3
+[18:43:00] Player 1 has been removed from channel 2
+[18:43:00] OnVoiceChannelUpdatePlayer 1 3
+[18:43:00] Player 1 has been removed from channel 3
+[18:43:00] OnVoiceChannelUpdatePlayer 1 3
+[18:43:00] Player 1 has been added to channel 2
+[18:43:00] OnVoiceChannelUpdatePlayer 1 3
+[18:43:01] Player 1 has changed his dimension from: 0 to: 501
+[18:43:11] Player 1 has changed his dimension from: 501 to: 0
+[19:22:45] Player 1 has been removed from channel 1
+[19:22:45] OnVoiceChannelUpdatePlayer 1 2
+[19:22:45] Player 1 has been removed from channel 2
+[19:22:45] OnVoiceChannelUpdatePlayer 1 1
+[19:22:45] Player 1 has been removed from channel 3
+[19:22:45] OnVoiceChannelUpdatePlayer 1 0
+[19:22:45] Player disconnected 1 0
+[19:22:45] Remove player 1 0
+[19:36:59] Disconnected from alt:V server
+[19:41:26] Connected to alt:V server
+[19:41:34] Channel 1 created. Spatial: true | MaxDistance: 4.99886
+[19:41:34] Channel 2 created. Spatial: true | MaxDistance: 9.99924
+[19:41:34] Channel 3 created. Spatial: true | MaxDistance: 20
+[19:41:37] Disconnected from alt:V server
+[19:42:18] Connected to alt:V server
+[19:42:24] Channel 1 created. Spatial: true | MaxDistance: 4.99886
+[19:42:24] Channel 2 created. Spatial: true | MaxDistance: 9.99924
+[19:42:24] Channel 3 created. Spatial: true | MaxDistance: 20
+[19:42:24] Disconnected from alt:V server
+[19:42:49] Connected to alt:V server
+[19:42:55] Channel 1 created. Spatial: true | MaxDistance: 4.99886
+[19:42:55] Channel 2 created. Spatial: true | MaxDistance: 9.99924
+[19:42:55] Channel 3 created. Spatial: true | MaxDistance: 20
+[19:43:45] Player connected 1
+[19:43:45] Player 1 has been added to channel 1
+[19:43:45] OnVoiceChannelUpdatePlayer 1 1
+[19:43:45] Player 1 has been added to channel 2
+[19:43:45] OnVoiceChannelUpdatePlayer 1 2
+[19:43:45] Player 1 has been added to channel 3
+[19:43:45] OnVoiceChannelUpdatePlayer 1 3
+[19:43:45] Player 1 has been removed from channel 1
+[19:43:45] OnVoiceChannelUpdatePlayer 1 3
+[19:43:45] Player 1 has been removed from channel 2
+[19:43:45] OnVoiceChannelUpdatePlayer 1 3
+[19:43:45] Player 1 has been removed from channel 3
+[19:43:45] OnVoiceChannelUpdatePlayer 1 3
+[19:43:45] Player 1 has been added to channel 2
+[19:43:45] OnVoiceChannelUpdatePlayer 1 3
+[19:43:46] Player 1 has changed his dimension from: 0 to: 501
+[19:44:30] Player 1 has changed his dimension from: 501 to: 0
+[19:47:48] Disconnected from alt:V server
+[19:47:48] Player disconnected 1 0
+[19:47:48] Remove player 1 0
+[19:47:51] Connected to alt:V server
+[19:47:58] Channel 1 created. Spatial: true | MaxDistance: 4.99886
+[19:47:58] Channel 2 created. Spatial: true | MaxDistance: 9.99924
+[19:47:58] Channel 3 created. Spatial: true | MaxDistance: 20
+[19:48:04] Player connected 1
+[19:48:04] Player 1 has been added to channel 1
+[19:48:04] OnVoiceChannelUpdatePlayer 1 1
+[19:48:04] Player 1 has been added to channel 2
+[19:48:04] OnVoiceChannelUpdatePlayer 1 2
+[19:48:04] Player 1 has been added to channel 3
+[19:48:04] OnVoiceChannelUpdatePlayer 1 3
+[19:48:04] Player 1 has been removed from channel 1
+[19:48:04] OnVoiceChannelUpdatePlayer 1 3
+[19:48:04] Player 1 has been removed from channel 2
+[19:48:04] OnVoiceChannelUpdatePlayer 1 3
+[19:48:04] Player 1 has been removed from channel 3
+[19:48:04] OnVoiceChannelUpdatePlayer 1 3
+[19:48:04] Player 1 has been added to channel 2
+[19:48:04] OnVoiceChannelUpdatePlayer 1 3
+[19:48:05] Player 1 has changed his dimension from: 0 to: 501
+[19:48:14] Player 1 has changed his dimension from: 501 to: 0
+[19:49:01] Player 1 has changed his vehicle from: 0 to: 11
+[19:52:09] Player 1 has changed his vehicle from: 11 to: 0
+[19:53:04] Player 1 has changed his vehicle from: 0 to: 11
+[19:53:41] Player 1 has changed his vehicle from: 11 to: 0
+[19:54:52] Player 1 has changed his vehicle from: 0 to: 11
+[19:57:02] Disconnected from alt:V server
+[19:57:02] Player disconnected 1 0
+[19:57:02] Remove player 1 0
+[19:57:07] Connected to alt:V server
+[19:57:16] Channel 1 created. Spatial: true | MaxDistance: 4.99886
+[19:57:16] Channel 2 created. Spatial: true | MaxDistance: 9.99924
+[19:57:16] Channel 3 created. Spatial: true | MaxDistance: 20
+[19:57:21] Player connected 1
+[19:57:21] Player 1 has been added to channel 1
+[19:57:21] OnVoiceChannelUpdatePlayer 1 1
+[19:57:21] Player 1 has been added to channel 2
+[19:57:21] OnVoiceChannelUpdatePlayer 1 2
+[19:57:21] Player 1 has been added to channel 3
+[19:57:21] OnVoiceChannelUpdatePlayer 1 3
+[19:57:21] Player 1 has been removed from channel 1
+[19:57:21] OnVoiceChannelUpdatePlayer 1 3
+[19:57:21] Player 1 has been removed from channel 2
+[19:57:21] OnVoiceChannelUpdatePlayer 1 3
+[19:57:21] Player 1 has been removed from channel 3
+[19:57:21] OnVoiceChannelUpdatePlayer 1 3
+[19:57:21] Player 1 has been added to channel 2
+[19:57:21] OnVoiceChannelUpdatePlayer 1 3
+[19:57:22] Player 1 has changed his vehicle from: 0 to: 0
+[19:57:22] Player 1 has changed his dimension from: 0 to: 501
+[19:57:31] Player 1 has changed his dimension from: 501 to: 0
+[20:00:52] Player 1 has changed his vehicle from: 0 to: 11
+[20:01:33] Player 1 has changed his vehicle from: 11 to: 0
+[20:01:39] Player 1 has changed his vehicle from: 0 to: 11
+[20:04:48] Disconnected from alt:V server
+[20:04:48] Player disconnected 1 0
+[20:04:48] Remove player 1 0
+[20:04:57] Connected to alt:V server
+[20:05:06] Channel 1 created. Spatial: true | MaxDistance: 4.99886
+[20:05:06] Channel 2 created. Spatial: true | MaxDistance: 9.99924
+[20:05:06] Channel 3 created. Spatial: true | MaxDistance: 20
+[20:05:12] Player connected 1
+[20:05:12] Player 1 has been added to channel 1
+[20:05:12] OnVoiceChannelUpdatePlayer 1 1
+[20:05:12] Player 1 has been added to channel 2
+[20:05:12] OnVoiceChannelUpdatePlayer 1 2
+[20:05:12] Player 1 has been added to channel 3
+[20:05:12] OnVoiceChannelUpdatePlayer 1 3
+[20:05:12] Player 1 has been removed from channel 1
+[20:05:12] OnVoiceChannelUpdatePlayer 1 3
+[20:05:12] Player 1 has been removed from channel 2
+[20:05:12] OnVoiceChannelUpdatePlayer 1 3
+[20:05:12] Player 1 has been removed from channel 3
+[20:05:12] OnVoiceChannelUpdatePlayer 1 3
+[20:05:12] Player 1 has been added to channel 2
+[20:05:12] OnVoiceChannelUpdatePlayer 1 3
+[20:05:13] Player 1 has changed his vehicle from: 0 to: 0
+[20:05:13] Player 1 has changed his dimension from: 0 to: 501
+[20:05:22] Player 1 has changed his dimension from: 501 to: 0
+[20:08:57] Disconnected from alt:V server
+[20:08:57] Player disconnected 1 0
+[20:08:57] Remove player 1 0
+[20:09:01] Connected to alt:V server
+[20:09:10] Channel 1 created. Spatial: true | MaxDistance: 4.99886
+[20:09:10] Channel 2 created. Spatial: true | MaxDistance: 9.99924
+[20:09:10] Channel 3 created. Spatial: true | MaxDistance: 20
+[20:09:16] Player connected 1
+[20:09:16] Player 1 has been added to channel 1
+[20:09:16] OnVoiceChannelUpdatePlayer 1 1
+[20:09:16] Player 1 has been added to channel 2
+[20:09:16] OnVoiceChannelUpdatePlayer 1 2
+[20:09:16] Player 1 has been added to channel 3
+[20:09:16] OnVoiceChannelUpdatePlayer 1 3
+[20:09:16] Player 1 has been removed from channel 1
+[20:09:16] OnVoiceChannelUpdatePlayer 1 3
+[20:09:16] Player 1 has been removed from channel 2
+[20:09:16] OnVoiceChannelUpdatePlayer 1 3
+[20:09:16] Player 1 has been removed from channel 3
+[20:09:16] OnVoiceChannelUpdatePlayer 1 3
+[20:09:16] Player 1 has been added to channel 2
+[20:09:16] OnVoiceChannelUpdatePlayer 1 3
+[20:09:17] Player 1 has changed his dimension from: 0 to: 501
+[20:09:23] Disconnected from alt:V server
+[20:09:50] Player disconnected 1 0
+[20:09:50] Remove player 1 0
+[21:53:07] Connected to alt:V server
+[21:53:18] Channel 1 created. Spatial: true | MaxDistance: 4.99886
+[21:53:18] Channel 2 created. Spatial: true | MaxDistance: 9.99924
+[21:53:18] Channel 3 created. Spatial: true | MaxDistance: 20
+[21:54:36] Player 1 has been added to channel 1
+[21:54:36] OnVoiceChannelUpdatePlayer 1 1
+[21:54:36] Player 1 has been added to channel 2
+[21:54:36] OnVoiceChannelUpdatePlayer 1 2
+[21:54:36] Player 1 has been added to channel 3
+[21:54:36] OnVoiceChannelUpdatePlayer 1 3
+[21:54:36] Player 1 has been removed from channel 1
+[21:54:36] OnVoiceChannelUpdatePlayer 1 3
+[21:54:36] Player 1 has been removed from channel 2
+[21:54:36] OnVoiceChannelUpdatePlayer 1 3
+[21:54:36] Player 1 has been removed from channel 3
+[21:54:36] OnVoiceChannelUpdatePlayer 1 3
+[21:54:36] Player 1 has been added to channel 2
+[21:54:36] OnVoiceChannelUpdatePlayer 1 3
+[21:54:36] Player connected 1
+[21:54:38] Player 1 has changed his dimension from: 0 to: 501
+[21:54:50] Player 1 has changed his dimension from: 501 to: 0
+[21:55:24] Disconnected from alt:V server
+[21:55:24] Player disconnected 1 0
+[21:55:24] Remove player 1 0
+[22:07:28] Connected to alt:V server
+[22:07:37] Channel 1 created. Spatial: true | MaxDistance: 4.99886
+[22:07:37] Channel 2 created. Spatial: true | MaxDistance: 9.99924
+[22:07:37] Channel 3 created. Spatial: true | MaxDistance: 20
+[22:08:10] Player connected 1
+[22:08:11] Player 1 has been added to channel 1
+[22:08:11] OnVoiceChannelUpdatePlayer 1 1
+[22:08:11] Player 1 has been added to channel 2
+[22:08:11] OnVoiceChannelUpdatePlayer 1 2
+[22:08:11] Player 1 has been added to channel 3
+[22:08:11] OnVoiceChannelUpdatePlayer 1 3
+[22:08:11] Player 1 has been removed from channel 1
+[22:08:11] OnVoiceChannelUpdatePlayer 1 3
+[22:08:11] Player 1 has been removed from channel 2
+[22:08:11] OnVoiceChannelUpdatePlayer 1 3
+[22:08:11] Player 1 has been removed from channel 3
+[22:08:11] OnVoiceChannelUpdatePlayer 1 3
+[22:08:11] Player 1 has been added to channel 2
+[22:08:11] OnVoiceChannelUpdatePlayer 1 3
+[22:08:11] Player 1 has changed his dimension from: 0 to: 501
+[22:08:25] Player 1 has changed his dimension from: 501 to: 0
+[22:08:52] Player 1 has changed his vehicle from: 0 to: 11
+[22:23:41] Disconnected from alt:V server
+[22:23:41] Player disconnected 1 0
+[22:23:41] Remove player 1 0
+[22:26:14] Connected to alt:V server
+[22:26:24] Channel 1 created. Spatial: true | MaxDistance: 4.99886
+[22:26:24] Channel 2 created. Spatial: true | MaxDistance: 9.99924
+[22:26:24] Channel 3 created. Spatial: true | MaxDistance: 20
+[22:26:40] Player connected 1
+[22:26:40] Player 1 has been added to channel 1
+[22:26:40] OnVoiceChannelUpdatePlayer 1 1
+[22:26:40] Player 1 has been added to channel 2
+[22:26:40] OnVoiceChannelUpdatePlayer 1 2
+[22:26:40] Player 1 has been added to channel 3
+[22:26:40] OnVoiceChannelUpdatePlayer 1 3
+[22:26:40] Player 1 has been removed from channel 1
+[22:26:40] OnVoiceChannelUpdatePlayer 1 3
+[22:26:40] Player 1 has been removed from channel 2
+[22:26:40] OnVoiceChannelUpdatePlayer 1 3
+[22:26:40] Player 1 has been removed from channel 3
+[22:26:40] OnVoiceChannelUpdatePlayer 1 3
+[22:26:40] Player 1 has been added to channel 2
+[22:26:40] OnVoiceChannelUpdatePlayer 1 3
+[22:26:41] Player 1 has changed his dimension from: 0 to: 501
+[22:26:41] Player 1 has changed his vehicle from: 0 to: 0
+[22:26:54] Player 1 has changed his dimension from: 501 to: 0
+[22:29:56] Disconnected from alt:V server
+[22:29:56] Player disconnected 1 0
+[22:29:56] Remove player 1 0
+[22:30:11] Connected to alt:V server
+[22:30:22] Channel 1 created. Spatial: true | MaxDistance: 4.99886
+[22:30:22] Channel 2 created. Spatial: true | MaxDistance: 9.99924
+[22:30:22] Channel 3 created. Spatial: true | MaxDistance: 20
+[22:30:27] Player connected 1
+[22:30:27] Player 1 has been added to channel 1
+[22:30:27] OnVoiceChannelUpdatePlayer 1 1
+[22:30:27] Player 1 has been added to channel 2
+[22:30:27] OnVoiceChannelUpdatePlayer 1 2
+[22:30:27] Player 1 has been added to channel 3
+[22:30:27] OnVoiceChannelUpdatePlayer 1 3
+[22:30:27] Player 1 has been removed from channel 1
+[22:30:27] OnVoiceChannelUpdatePlayer 1 3
+[22:30:27] Player 1 has been removed from channel 2
+[22:30:27] OnVoiceChannelUpdatePlayer 1 3
+[22:30:27] Player 1 has been removed from channel 3
+[22:30:27] OnVoiceChannelUpdatePlayer 1 3
+[22:30:27] Player 1 has been added to channel 2
+[22:30:27] OnVoiceChannelUpdatePlayer 1 3
+[22:30:28] Player 1 has changed his dimension from: 0 to: 501
+[22:30:43] Player 1 has changed his dimension from: 501 to: 0
+[22:31:12] Disconnected from alt:V server
+[22:31:12] Player disconnected 1 0
+[22:31:12] Remove player 1 0
+[22:34:35] Connected to alt:V server
+[22:34:45] Channel 1 created. Spatial: true | MaxDistance: 4.99886
+[22:34:45] Channel 2 created. Spatial: true | MaxDistance: 9.99924
+[22:34:45] Channel 3 created. Spatial: true | MaxDistance: 20
+[22:34:51] Player connected 1
+[22:34:52] Player 1 has been added to channel 1
+[22:34:52] OnVoiceChannelUpdatePlayer 1 1
+[22:34:52] Player 1 has been added to channel 2
+[22:34:52] OnVoiceChannelUpdatePlayer 1 2
+[22:34:52] Player 1 has been added to channel 3
+[22:34:52] OnVoiceChannelUpdatePlayer 1 3
+[22:34:52] Player 1 has been removed from channel 1
+[22:34:52] OnVoiceChannelUpdatePlayer 1 3
+[22:34:52] Player 1 has been removed from channel 2
+[22:34:52] OnVoiceChannelUpdatePlayer 1 3
+[22:34:52] Player 1 has been removed from channel 3
+[22:34:52] OnVoiceChannelUpdatePlayer 1 3
+[22:34:52] Player 1 has been added to channel 2
+[22:34:52] OnVoiceChannelUpdatePlayer 1 3
+[22:34:53] Player 1 has changed his dimension from: 0 to: 501
+[22:35:22] Player 1 has changed his dimension from: 501 to: 0
+[22:36:10] Player 1 has changed his vehicle from: 0 to: 11
+[22:38:36] Disconnected from alt:V server
+[22:38:36] Player disconnected 1 0
+[22:38:36] Remove player 1 0
+[22:38:39] Connected to alt:V server
+[22:38:50] Channel 1 created. Spatial: true | MaxDistance: 4.99886
+[22:38:50] Channel 2 created. Spatial: true | MaxDistance: 9.99924
+[22:38:50] Channel 3 created. Spatial: true | MaxDistance: 20
+[22:39:53] Player connected 1
+[22:39:53] Player 1 has been added to channel 1
+[22:39:53] OnVoiceChannelUpdatePlayer 1 1
+[22:39:53] Player 1 has been added to channel 2
+[22:39:53] OnVoiceChannelUpdatePlayer 1 2
+[22:39:53] Player 1 has been added to channel 3
+[22:39:53] OnVoiceChannelUpdatePlayer 1 3
+[22:39:53] Player 1 has been removed from channel 1
+[22:39:53] OnVoiceChannelUpdatePlayer 1 3
+[22:39:53] Player 1 has been removed from channel 2
+[22:39:53] OnVoiceChannelUpdatePlayer 1 3
+[22:39:53] Player 1 has been removed from channel 3
+[22:39:53] OnVoiceChannelUpdatePlayer 1 3
+[22:39:53] Player 1 has been added to channel 2
+[22:39:53] OnVoiceChannelUpdatePlayer 1 3
+[22:39:54] Player 1 has changed his vehicle from: 0 to: 0
+[22:39:54] Player 1 has changed his dimension from: 0 to: 501
+[22:40:05] Player 1 has changed his dimension from: 501 to: 0
+[22:52:26] Disconnected from alt:V server
+[22:52:26] Player disconnected 1 0
+[22:52:26] Remove player 1 0
+[22:52:30] Connected to alt:V server
+[22:52:40] Channel 1 created. Spatial: true | MaxDistance: 4.99886
+[22:52:40] Channel 2 created. Spatial: true | MaxDistance: 9.99924
+[22:52:40] Channel 3 created. Spatial: true | MaxDistance: 20
+[22:59:33] Disconnected from alt:V server
+[22:59:35] Connected to alt:V server
+[22:59:45] Channel 1 created. Spatial: true | MaxDistance: 4.99886
+[22:59:45] Channel 2 created. Spatial: true | MaxDistance: 9.99924
+[22:59:45] Channel 3 created. Spatial: true | MaxDistance: 20
+[23:04:13] Disconnected from alt:V server
+[23:04:15] Connected to alt:V server
+[23:04:24] Channel 1 created. Spatial: true | MaxDistance: 4.99886
+[23:04:24] Channel 2 created. Spatial: true | MaxDistance: 9.99924
+[23:04:24] Channel 3 created. Spatial: true | MaxDistance: 20
+[23:04:47] Disconnected from alt:V server
+[23:06:07] Connected to alt:V server
+[23:06:16] Channel 1 created. Spatial: true | MaxDistance: 4.99886
+[23:06:16] Channel 2 created. Spatial: true | MaxDistance: 9.99924
+[23:06:16] Channel 3 created. Spatial: true | MaxDistance: 20
+[23:07:11] Player connected 1
+[23:07:11] Player 1 has been added to channel 1
+[23:07:11] OnVoiceChannelUpdatePlayer 1 1
+[23:07:11] Player 1 has been added to channel 2
+[23:07:11] OnVoiceChannelUpdatePlayer 1 2
+[23:07:11] Player 1 has been added to channel 3
+[23:07:11] OnVoiceChannelUpdatePlayer 1 3
+[23:07:11] Player 1 has been removed from channel 1
+[23:07:11] OnVoiceChannelUpdatePlayer 1 3
+[23:07:11] Player 1 has been removed from channel 2
+[23:07:11] OnVoiceChannelUpdatePlayer 1 3
+[23:07:11] Player 1 has been removed from channel 3
+[23:07:11] OnVoiceChannelUpdatePlayer 1 3
+[23:07:11] Player 1 has been added to channel 2
+[23:07:11] OnVoiceChannelUpdatePlayer 1 3
+[23:07:12] Player 1 has changed his dimension from: 0 to: 501
+[23:07:31] Player 1 has changed his dimension from: 501 to: 0
+[23:10:35] Disconnected from alt:V server
+[23:10:35] Player disconnected 1 0
+[23:10:35] Remove player 1 0
+[23:10:38] Connected to alt:V server
+[23:10:47] Channel 1 created. Spatial: true | MaxDistance: 4.99886
+[23:10:47] Channel 2 created. Spatial: true | MaxDistance: 9.99924
+[23:10:47] Channel 3 created. Spatial: true | MaxDistance: 20
+[23:10:47] Disconnected from alt:V server
+[23:12:11] Connected to alt:V server
+[23:12:20] Channel 1 created. Spatial: true | MaxDistance: 4.99886
+[23:12:20] Channel 2 created. Spatial: true | MaxDistance: 9.99924
+[23:12:20] Channel 3 created. Spatial: true | MaxDistance: 20
+[23:30:37] Disconnected from alt:V server
+[23:32:55] Connected to alt:V server
+[23:33:05] Channel 1 created. Spatial: true | MaxDistance: 4.99886
+[23:33:05] Channel 2 created. Spatial: true | MaxDistance: 9.99924
+[23:33:05] Channel 3 created. Spatial: true | MaxDistance: 20
+[23:33:17] Disconnected from alt:V server
+[23:34:05] Connected to alt:V server
+[23:34:13] Channel 1 created. Spatial: true | MaxDistance: 4.99886
+[23:34:13] Channel 2 created. Spatial: true | MaxDistance: 9.99924
+[23:34:13] Channel 3 created. Spatial: true | MaxDistance: 20
+[23:34:13] Disconnected from alt:V server
+[23:35:22] Connected to alt:V server
+[23:35:53] Disconnected from alt:V server
+[23:37:03] Connected to alt:V server
+[23:37:36] Disconnected from alt:V server
+[23:38:11] Connected to alt:V server
+[23:38:19] Channel 1 created. Spatial: true | MaxDistance: 4.99886
+[23:38:19] Channel 2 created. Spatial: true | MaxDistance: 9.99924
+[23:38:19] Channel 3 created. Spatial: true | MaxDistance: 20
+[23:38:19] Disconnected from alt:V server
+[23:40:11] Connected to alt:V server
+[23:40:42] Disconnected from alt:V server
+[23:42:37] Connected to alt:V server
+[23:42:43] Channel 1 created. Spatial: true | MaxDistance: 4.99886
+[23:42:43] Channel 2 created. Spatial: true | MaxDistance: 9.99924
+[23:42:43] Channel 3 created. Spatial: true | MaxDistance: 20
+[23:48:05] Disconnected from alt:V server
+[23:48:07] Connected to alt:V server
+[23:48:15] Channel 1 created. Spatial: true | MaxDistance: 4.99886
+[23:48:15] Channel 2 created. Spatial: true | MaxDistance: 9.99924
+[23:48:15] Channel 3 created. Spatial: true | MaxDistance: 20
+[23:48:15] Disconnected from alt:V server
+[23:51:12] Connected to alt:V server
+[23:51:19] Channel 1 created. Spatial: true | MaxDistance: 4.99886
+[23:51:19] Channel 2 created. Spatial: true | MaxDistance: 9.99924
+[23:51:19] Channel 3 created. Spatial: true | MaxDistance: 20
+[23:51:19] Disconnected from alt:V server
+[23:51:55] Connected to alt:V server
+[23:52:02] Channel 1 created. Spatial: true | MaxDistance: 4.99886
+[23:52:02] Channel 2 created. Spatial: true | MaxDistance: 9.99924
+[23:52:02] Channel 3 created. Spatial: true | MaxDistance: 20
+[23:52:02] Disconnected from alt:V server
+[23:52:26] Connected to alt:V server
+[23:52:33] Channel 1 created. Spatial: true | MaxDistance: 4.99886
+[23:52:33] Channel 2 created. Spatial: true | MaxDistance: 9.99924
+[23:52:33] Channel 3 created. Spatial: true | MaxDistance: 20
+[23:53:06] Disconnected from alt:V server
+[23:58:15] Connected to alt:V server
+[23:58:24] Channel 1 created. Spatial: true | MaxDistance: 4.99886
+[23:58:24] Channel 2 created. Spatial: true | MaxDistance: 9.99924
+[23:58:24] Channel 3 created. Spatial: true | MaxDistance: 20
+58:43][23:58:43] Player connected 1 Player 1 has been added to channel 1
+
+[23:58:43] OnVoiceChannelUpdatePlayer 1 1
+[23:58:43] Player 1 has been added to channel 2
+[23:58:43] OnVoiceChannelUpdatePlayer 1 2
+[23:58:43] Player 1 has been added to channel 3
+[23:58:43] OnVoiceChannelUpdatePlayer 1 3
+[23:58:43] Player 1 has been removed from channel 1
+[23:58:43] OnVoiceChannelUpdatePlayer 1 3
+[23:58:43] Player 1 has been removed from channel 2
+[23:58:43] OnVoiceChannelUpdatePlayer 1 3
+[23:58:43] Player 1 has been removed from channel 3
+[23:58:43] OnVoiceChannelUpdatePlayer 1 3
+[23:58:43] Player 1 has been added to channel 2
+[23:58:43] OnVoiceChannelUpdatePlayer 1 3
+[23:58:44] Player 1 has changed his dimension from: 0 to: 501
+[23:59:58] Disconnected from alt:V server
+[23:59:58] Player disconnected 1 0
+[23:59:58] Remove player 1 0
+[00:00:04] Connected to alt:V server
+[00:00:13] Channel 1 created. Spatial: true | MaxDistance: 4.99886
+[00:00:13] Channel 2 created. Spatial: true | MaxDistance: 9.99924
+[00:00:13] Channel 3 created. Spatial: true | MaxDistance: 20
+[00:00:27] Player 1 has been added to channel 1
+[00:00:27] OnVoiceChannelUpdatePlayer 1 1
+[00:00:27] Player 1 has been added to channel 2
+[00:00:27] OnVoiceChannelUpdatePlayer 1 2
+[00:00:27] Player 1 has been added to channel 3
+[00:00:27] OnVoiceChannelUpdatePlayer 1 3
+[00:00:27] Player 1 has been removed from channel 1
+[00:00:27] OnVoiceChannelUpdatePlayer 1 3
+[00:00:27] Player 1 has been removed from channel 2
+[00:00:27] OnVoiceChannelUpdatePlayer 1 3
+[00:00:27] Player 1 has been removed from channel 3
+[00:00:27] OnVoiceChannelUpdatePlayer 1 3
+[00:00:27] Player 1 has been added to channel 2
+[00:00:27] OnVoiceChannelUpdatePlayer 1 3
+[00:00:27] Player connected 1
+[00:00:29] Player 1 has changed his dimension from: 0 to: 501
+[00:01:37] Disconnected from alt:V server
+[00:01:37] Player disconnected 1 0
+[00:01:37] Remove player 1 0
+[00:01:39] Connected to alt:V server
+[00:01:48] Channel 1 created. Spatial: true | MaxDistance: 4.99886
+[00:01:48] Channel 2 created. Spatial: true | MaxDistance: 9.99924
+[00:01:48] Channel 3 created. Spatial: true | MaxDistance: 20
+[00:01:53] Player 1 has been added to channel 1
+[00:01:53] OnVoiceChannelUpdatePlayer 1 1
+[00:01:53] Player 1 has been added to channel 2
+[00:01:53] OnVoiceChannelUpdatePlayer 1 2
+[00:01:53] Player 1 has been added to channel 3
+[00:01:53] OnVoiceChannelUpdatePlayer 1 3
+[00:01:53] Player 1 has been removed from channel 1
+[00:01:53] OnVoiceChannelUpdatePlayer 1 3
+[00:01:53] Player 1 has been removed from channel 2
+[00:01:53] OnVoiceChannelUpdatePlayer 1 3
+[00:01:53] Player 1 has been removed from channel 3
+[00:01:53] OnVoiceChannelUpdatePlayer 1 3
+[00:01:53] Player 1 has been added to channel 2
+[00:01:53] OnVoiceChannelUpdatePlayer 1 3
+[00:01:53] Player connected 1
+[00:01:55] Player 1 has changed his dimension from: 0 to: 501
+[00:02:10] Player 1 has changed his dimension from: 501 to: 0
+[00:05:49] Disconnected from alt:V server
+[00:05:49] Player disconnected 1 0
+[00:05:49] Remove player 1 0
+[00:05:51] Connected to alt:V server
+[00:06:00] Channel 1 created. Spatial: true | MaxDistance: 4.99886
+[00:06:00] Channel 2 created. Spatial: true | MaxDistance: 9.99924
+[00:06:00] Channel 3 created. Spatial: true | MaxDistance: 20
+[00:06:04][00:06:04][00:06:04] Player 1 has been added to channel 1 Player connected 1
+
+[00:06:04] OnVoiceChannelUpdatePlayer 1 1
+[00:06:04] Player 1 has been added to channel 2
+[00:06:04] OnVoiceChannelUpdatePlayer 1 2
+[00:06:04] Player 1 has been added to channel 3
+[00:06:04] OnVoiceChannelUpdatePlayer 1 3
+[00:06:04] Player 1 has been removed from channel 1
+[00:06:04] OnVoiceChannelUpdatePlayer 1 3
+[00:06:04] Player 1 has been removed from channel 2
+[00:06:04] OnVoiceChannelUpdatePlayer 1 3
+[00:06:04] Player 1 has been removed from channel 3
+[00:06:04] OnVoiceChannelUpdatePlayer 1 3
+[00:06:04] Player 1 has been added to channel 2
+[00:06:04] OnVoiceChannelUpdatePlayer 1 3
+[00:06:05] Player 1 has changed his dimension from: 0 to: 501
+[00:06:14] Player 1 has changed his dimension from: 501 to: 0
+[00:06:54] Disconnected from alt:V server
+[00:06:54] Player disconnected 1 0
+[00:06:54] Remove player 1 0
+[00:08:28] Connected to alt:V server
+[00:08:37] Channel 1 created. Spatial: true | MaxDistance: 4.99886
+[00:08:37] Channel 2 created. Spatial: true | MaxDistance: 9.99924
+[00:08:37] Channel 3 created. Spatial: true | MaxDistance: 20
+[00:08:43][00:08:43] Player connected 1 Player 1 has been added to channel 1
+
+[00:08:43] OnVoiceChannelUpdatePlayer 1 1
+[00:08:43] Player 1 has been added to channel 2
+[00:08:43] OnVoiceChannelUpdatePlayer 1 2
+[00:08:43] Player 1 has been added to channel 3
+[00:08:43] OnVoiceChannelUpdatePlayer 1 3
+[00:08:43] Player 1 has been removed from channel 1
+[00:08:43] OnVoiceChannelUpdatePlayer 1 3
+[00:08:43] Player 1 has been removed from channel 2
+[00:08:43] OnVoiceChannelUpdatePlayer 1 3
+[00:08:43] Player 1 has been removed from channel 3
+[00:08:43] OnVoiceChannelUpdatePlayer 1 3
+[00:08:43] Player 1 has been added to channel 2
+[00:08:43] OnVoiceChannelUpdatePlayer 1 3
+[00:08:44] Player 1 has changed his dimension from: 0 to: 501
+[00:08:54] Player 1 has changed his dimension from: 501 to: 0
+[00:11:00] Disconnected from alt:V server
+[00:11:01] Player disconnected 1 0
+[00:11:01] Remove player 1 0
+[00:11:03] Connected to alt:V server
+[00:11:13] Channel 1 created. Spatial: true | MaxDistance: 4.99886
+[00:11:13] Channel 2 created. Spatial: true | MaxDistance: 9.99924
+[00:11:13] Channel 3 created. Spatial: true | MaxDistance: 20
+[00:11:22] Player 1 has been added to channel 1
+[00:11:22] OnVoiceChannelUpdatePlayer 1 1
+[00:11:22] Player 1 has been added to channel 2
+[00:11:22] OnVoiceChannelUpdatePlayer 1 2
+[00:11:22] Player 1 has been added to channel 3
+[00:11:22] OnVoiceChannelUpdatePlayer 1 3
+[00:11:22] Player 1 has been removed from channel 1
+[00:11:22] OnVoiceChannelUpdatePlayer 1 3
+[00:11:22] Player 1 has been removed from channel 2
+[00:11:22] OnVoiceChannelUpdatePlayer 1 3
+[00:11:22] Player 1 has been removed from channel 3
+[00:11:22] OnVoiceChannelUpdatePlayer 1 3
+[00:11:22] Player 1 has been added to channel 2
+[00:11:22] OnVoiceChannelUpdatePlayer 1 3
+[00:11:22] Player connected 1
+[00:11:24] Player 1 has changed his dimension from: 0 to: 501
+[00:11:33] Player 1 has changed his dimension from: 501 to: 0
+[00:18:19] Disconnected from alt:V server
+[00:18:19] Player disconnected 1 0
+[00:18:19] Remove player 1 0
+[00:18:23] Connected to alt:V server
+[00:18:32] Channel 1 created. Spatial: true | MaxDistance: 4.99886
+[00:18:32] Channel 2 created. Spatial: true | MaxDistance: 9.99924
+[00:18:32] Channel 3 created. Spatial: true | MaxDistance: 20
+[00:18:36] Player 1 has been added to channel 1
+[00:18:36] OnVoiceChannelUpdatePlayer 1 1
+[00:18:36] Player 1 has been added to channel 2
+[00:18:36] OnVoiceChannelUpdatePlayer 1 2
+[00:18:36] Player 1 has been added to channel 3
+[00:18:36] OnVoiceChannelUpdatePlayer 1 3
+[00:18:36] Player 1 has been removed from channel 1
+[00:18:36] OnVoiceChannelUpdatePlayer 1 3
+[00:18:36] Player 1 has been removed from channel 2
+[00:18:36] OnVoiceChannelUpdatePlayer 1 3
+[00:18:36] Player 1 has been removed from channel 3
+[00:18:36] OnVoiceChannelUpdatePlayer 1 3
+[00:18:36] Player 1 has been added to channel 2
+[00:18:36] OnVoiceChannelUpdatePlayer 1 3
+[00:18:36] Player connected 1
+[00:18:37] Player 1 has changed his dimension from: 0 to: 501
+[00:18:50] Player 1 has changed his dimension from: 501 to: 0
+[00:21:38] Disconnected from alt:V server
+[00:21:38] Player disconnected 1 0
+[00:21:38] Remove player 1 0
+[00:21:41] Connected to alt:V server
+[00:21:50] Channel 1 created. Spatial: true | MaxDistance: 4.99886
+[00:21:50] Channel 2 created. Spatial: true | MaxDistance: 9.99924
+[00:21:50] Channel 3 created. Spatial: true | MaxDistance: 20
+[00:21:57] Player 1 has been added to channel 1
+[00:21:57] OnVoiceChannelUpdatePlayer 1 1
+[00:21:57] Player 1 has been added to channel 2
+[00:21:57] OnVoiceChannelUpdatePlayer 1 2
+[00:21:57] Player 1 has been added to channel 3
+[00:21:57] OnVoiceChannelUpdatePlayer 1 3
+[00:21:57] Player 1 has been removed from channel 1
+[00:21:57] OnVoiceChannelUpdatePlayer 1 3
+[00:21:57] Player 1 has been removed from channel 2
+[00:21:57] OnVoiceChannelUpdatePlayer 1 3
+[00:21:57] Player 1 has been removed from channel 3
+[00:21:57] OnVoiceChannelUpdatePlayer 1 3
+[00:21:57] Player 1 has been added to channel 2
+[00:21:57] OnVoiceChannelUpdatePlayer 1 3
+[00:21:57] Player connected 1
+[00:21:58] Player 1 has changed his dimension from: 0 to: 501
+[00:22:10] Player 1 has changed his dimension from: 501 to: 0
+[00:26:15] Disconnected from alt:V server
+[00:26:15] Player disconnected 1 0
+[00:26:15] Remove player 1 0
+[00:26:18] Connected to alt:V server
+[00:26:26] Channel 1 created. Spatial: true | MaxDistance: 4.99886
+[00:26:26] Channel 2 created. Spatial: true | MaxDistance: 9.99924
+[00:26:26] Channel 3 created. Spatial: true | MaxDistance: 20
+[00:26:31] Player 1 has been added to channel 1
+[00:26:31] OnVoiceChannelUpdatePlayer 1 1
+[00:26:31] Player 1 has been added to channel 2
+[00:26:31] OnVoiceChannelUpdatePlayer 1 2
+[00:26:31] Player 1 has been added to channel 3
+[00:26:31] OnVoiceChannelUpdatePlayer 1 3
+[00:26:31] Player 1 has been removed from channel 1
+[00:26:31] OnVoiceChannelUpdatePlayer 1 3
+[00:26:31] Player 1 has been removed from channel 2
+[00:26:31] OnVoiceChannelUpdatePlayer 1 3
+[00:26:31] Player 1 has been removed from channel 3
+[00:26:31] OnVoiceChannelUpdatePlayer 1 3
+[00:26:31] Player 1 has been added to channel 2
+[00:26:31] OnVoiceChannelUpdatePlayer 1 3
+[00:26:31] Player connected 1
+[00:26:33] Player 1 has changed his dimension from: 0 to: 501
+[00:26:44] Player 1 has changed his dimension from: 501 to: 0
+[00:26:44] Player 1 has changed his dimension from: 0 to: 2
+[00:28:14] Disconnected from alt:V server
+[00:28:14] Player disconnected 1 0
+[00:28:14] Remove player 1 0
+[00:28:50] Connected to alt:V server
+[00:28:58] Channel 1 created. Spatial: true | MaxDistance: 4.99886
+[00:28:58] Channel 2 created. Spatial: true | MaxDistance: 9.99924
+[00:28:58] Channel 3 created. Spatial: true | MaxDistance: 20
+[00:29:03] Player 1 has been added to channel 1
+[00:29:03] OnVoiceChannelUpdatePlayer 1 1
+[00:29:03] Player 1 has been added to channel 2
+[00:29:03] OnVoiceChannelUpdatePlayer 1 2
+[00:29:03] Player 1 has been added to channel 3
+[00:29:03] OnVoiceChannelUpdatePlayer 1 3
+[00:29:03] Player 1 has been removed from channel 1
+[00:29:03] OnVoiceChannelUpdatePlayer 1 3
+[00:29:03] Player 1 has been removed from channel 2
+[00:29:03] OnVoiceChannelUpdatePlayer 1 3
+[00:29:03] Player 1 has been removed from channel 3
+[00:29:03] OnVoiceChannelUpdatePlayer 1 3
+[00:29:03] Player 1 has been added to channel 2
+[00:29:03] OnVoiceChannelUpdatePlayer 1 3
+[00:29:03] Player connected 1
+[00:29:04] Player 1 has changed his dimension from: 0 to: 501
+[00:29:16] Player 1 has changed his dimension from: 501 to: 0
+[00:29:16] Player 1 has changed his dimension from: 0 to: 2
+[00:31:13] Disconnected from alt:V server
+[00:31:13] Player disconnected 1 0
+[00:31:13] Remove player 1 0
+[00:32:02] Connected to alt:V server
+[00:32:11] Channel 1 created. Spatial: true | MaxDistance: 4.99886
+[00:32:11] Channel 2 created. Spatial: true | MaxDistance: 9.99924
+[00:32:11] Channel 3 created. Spatial: true | MaxDistance: 20
+[00:32:15] Player 1 has been added to channel 1
+[00:32:15] OnVoiceChannelUpdatePlayer 1 1
+[00:32:15] Player 1 has been added to channel 2
+[00:32:15] OnVoiceChannelUpdatePlayer 1 2
+[00:32:15] Player 1 has been added to channel 3
+[00:32:15] OnVoiceChannelUpdatePlayer 1 3
+[00:32:15] Player 1 has been removed from channel 1
+[00:32:15] OnVoiceChannelUpdatePlayer 1 3
+[00:32:15] Player 1 has been removed from channel 2
+[00:32:15] OnVoiceChannelUpdatePlayer 1 3
+[00:32:15] Player 1 has been removed from channel 3
+[00:32:15] OnVoiceChannelUpdatePlayer 1 3
+[00:32:15] Player 1 has been added to channel 2
+[00:32:15] OnVoiceChannelUpdatePlayer 1 3
+[00:32:15] Player connected 1
+[00:32:18] Player 1 has changed his dimension from: 0 to: 501
+[00:32:27] Player 1 has changed his dimension from: 501 to: 0
+[00:32:27] Player 1 has changed his dimension from: 0 to: 2
+[00:35:15] Disconnected from alt:V server
+[00:35:16] Player disconnected 1 0
+[00:35:16] Remove player 1 0
+[00:35:17] Connected to alt:V server
+[00:35:26] Channel 1 created. Spatial: true | MaxDistance: 4.99886
+[00:35:26] Channel 2 created. Spatial: true | MaxDistance: 9.99924
+[00:35:26] Channel 3 created. Spatial: true | MaxDistance: 20
+[00:35:29] Player 1 has been added to channel 1
+[00:35:29] OnVoiceChannelUpdatePlayer 1 1
+[00:35:29] Player 1 has been added to channel 2
+[00:35:29] OnVoiceChannelUpdatePlayer 1 2
+[00:35:29] Player 1 has been added to channel 3
+[00:35:29] OnVoiceChannelUpdatePlayer 1 3
+[00:35:29] Player 1 has been removed from channel 1
+[00:35:29] OnVoiceChannelUpdatePlayer 1 3
+[00:35:29] Player 1 has been removed from channel 2
+[00:35:29] OnVoiceChannelUpdatePlayer 1 3
+[00:35:29] Player 1 has been removed from channel 3
+[00:35:29] OnVoiceChannelUpdatePlayer 1 3
+[00:35:29] Player 1 has been added to channel 2
+[00:35:29] OnVoiceChannelUpdatePlayer 1 3
+[00:35:29] Player connected 1
+[00:35:33] Player 1 has changed his dimension from: 0 to: 501
+[00:35:43] Player 1 has changed his dimension from: 501 to: 0
+[00:35:43] Player 1 has changed his dimension from: 0 to: 2
+[00:36:25] Disconnected from alt:V server
+[00:36:25] Player disconnected 1 0
+[00:36:25] Remove player 1 0
+[00:36:27] Connected to alt:V server
+[00:36:35] Channel 1 created. Spatial: true | MaxDistance: 4.99886
+[00:36:35] Channel 2 created. Spatial: true | MaxDistance: 9.99924
+[00:36:35] Channel 3 created. Spatial: true | MaxDistance: 20
+[00:36:41] Player 1 has been added to channel 1
+[00:36:41] OnVoiceChannelUpdatePlayer 1 1
+[00:36:41] Player 1 has been added to channel 2
+[00:36:41] OnVoiceChannelUpdatePlayer 1 2
+[00:36:41] Player 1 has been added to channel 3
+[00:36:41] OnVoiceChannelUpdatePlayer 1 3
+[00:36:41] Player 1 has been removed from channel 1
+[00:36:41] OnVoiceChannelUpdatePlayer 1 3
+[00:36:41] Player 1 has been removed from channel 2
+[00:36:41] OnVoiceChannelUpdatePlayer 1 3
+[00:36:41] Player 1 has been removed from channel 3
+[00:36:41] OnVoiceChannelUpdatePlayer 1 3
+[00:36:41] Player 1 has been added to channel 2
+[00:36:41] OnVoiceChannelUpdatePlayer 1 3
+[00:36:41] Player connected 1
+[00:36:46] Player 1 has changed his dimension from: 0 to: 501
+[00:36:55] Player 1 has changed his dimension from: 501 to: 0
+[00:36:56] Player 1 has changed his dimension from: 0 to: 2
+[00:40:33] Disconnected from alt:V server
+[00:40:33] Player disconnected 1 0
+[00:40:33] Remove player 1 0
+[00:40:35] Connected to alt:V server
+[00:40:45] Channel 1 created. Spatial: true | MaxDistance: 4.99886
+[00:40:45] Channel 2 created. Spatial: true | MaxDistance: 9.99924
+[00:40:45] Channel 3 created. Spatial: true | MaxDistance: 20
+[00:40:49] Player 1 has been added to channel 1
+[00:40:49] OnVoiceChannelUpdatePlayer 1 1
+[00:40:49] Player 1 has been added to channel 2
+[00:40:49] OnVoiceChannelUpdatePlayer 1 2
+[00:40:49] Player 1 has been added to channel 3
+[00:40:49] OnVoiceChannelUpdatePlayer 1 3
+[00:40:49] Player 1 has been removed from channel 1
+[00:40:49] OnVoiceChannelUpdatePlayer 1 3
+[00:40:49] Player 1 has been removed from channel 2
+[00:40:49] OnVoiceChannelUpdatePlayer 1 3
+[00:40:49] Player 1 has been removed from channel 3
+[00:40:49] OnVoiceChannelUpdatePlayer 1 3
+[00:40:49] Player 1 has been added to channel 2
+[00:40:49] OnVoiceChannelUpdatePlayer 1 3
+[00:40:49] Player connected 1
+[00:40:54] Player 1 has changed his dimension from: 0 to: 501
+[00:41:03] Player 1 has changed his dimension from: 501 to: 0
+[00:41:04] Player disconnected 1 3
+[00:41:34] Player 1 has been removed from channel 1
+[00:41:34] OnVoiceChannelUpdatePlayer 1 2
+[00:41:34] Player 1 has been removed from channel 2
+[00:41:34] OnVoiceChannelUpdatePlayer 1 1
+[00:41:34] Player 1 has been removed from channel 3
+[00:41:34] OnVoiceChannelUpdatePlayer 1 0
+[00:41:34] Remove player 1 0
+[00:43:07] Player 1 has been added to channel 1
+[00:43:07] OnVoiceChannelUpdatePlayer 1 1
+[00:43:07] Player 1 has been added to channel 2
+[00:43:07] OnVoiceChannelUpdatePlayer 1 2
+[00:43:07] Player 1 has been added to channel 3
+[00:43:07] OnVoiceChannelUpdatePlayer 1 3
+[00:43:07] Player 1 has been removed from channel 1
+[00:43:07] OnVoiceChannelUpdatePlayer 1 3
+[00:43:07] Player 1 has been removed from channel 2
+[00:43:07] OnVoiceChannelUpdatePlayer 1 3
+[00:43:07] Player 1 has been removed from channel 3
+[00:43:07] OnVoiceChannelUpdatePlayer 1 3
+[00:43:07] Player 1 has been added to channel 2
+[00:43:07] OnVoiceChannelUpdatePlayer 1 3
+[00:43:07] Player connected 1
+[00:43:08] Player 1 has changed his dimension from: 0 to: 501
+[00:43:21] Player 1 has changed his dimension from: 501 to: 0
+[00:43:22] Player disconnected 1 3
+[00:43:52] Player 1 has been removed from channel 1
+[00:43:52] OnVoiceChannelUpdatePlayer 1 2
+[00:43:52] Player 1 has been removed from channel 2
+[00:43:52] OnVoiceChannelUpdatePlayer 1 1
+[00:43:52] Player 1 has been removed from channel 3
+[00:43:52] OnVoiceChannelUpdatePlayer 1 0
+[00:43:52] Remove player 1 0
+[00:45:25] Disconnected from alt:V server
+[00:45:27] Connected to alt:V server
+[00:45:34] Channel 1 created. Spatial: true | MaxDistance: 4.99886
+[00:45:34] Channel 2 created. Spatial: true | MaxDistance: 9.99924
+[00:45:34] Channel 3 created. Spatial: true | MaxDistance: 20
+[00:47:05] Player 1 has been added to channel 1
+[00:47:05] OnVoiceChannelUpdatePlayer 1 1
+[00:47:05] Player 1 has been added to channel 2
+[00:47:05] OnVoiceChannelUpdatePlayer 1 2
+[00:47:05] Player 1 has been added to channel 3
+[00:47:05] OnVoiceChannelUpdatePlayer 1 3
+[00:47:05] Player 1 has been removed from channel 1
+[00:47:05] OnVoiceChannelUpdatePlayer 1 3
+[00:47:05] Player 1 has been removed from channel 2
+[00:47:05] OnVoiceChannelUpdatePlayer 1 3
+[00:47:05] Player 1 has been removed from channel 3
+[00:47:05] OnVoiceChannelUpdatePlayer 1 3
+[00:47:05] Player 1 has been added to channel 2
+[00:47:05] OnVoiceChannelUpdatePlayer 1 3
+[00:47:05] Player connected 1
+[00:47:06] Player 1 has changed his dimension from: 0 to: 501
+[00:47:17] Player 1 has changed his dimension from: 501 to: 0
+[00:47:18] Player 1 has changed his dimension from: 0 to: 2
+[00:48:34] Disconnected from alt:V server
+[00:48:35] Player disconnected 1 0
+[00:48:35] Remove player 1 0
+[00:48:37] Connected to alt:V server
+[00:48:48] Channel 1 created. Spatial: true | MaxDistance: 4.99886
+[00:48:48] Channel 2 created. Spatial: true | MaxDistance: 9.99924
+[00:48:48] Channel 3 created. Spatial: true | MaxDistance: 20
+[00:48:51] Player 1 has been added to channel 1
+[00:48:51] OnVoiceChannelUpdatePlayer 1 1
+[00:48:51] Player 1 has been added to channel 2
+[00:48:51] OnVoiceChannelUpdatePlayer 1 2
+[00:48:51] Player 1 has been added to channel 3
+[00:48:51] OnVoiceChannelUpdatePlayer 1 3
+[00:48:51] Player 1 has been removed from channel 1
+[00:48:51] OnVoiceChannelUpdatePlayer 1 3
+[00:48:51] Player 1 has been removed from channel 2
+[00:48:51] OnVoiceChannelUpdatePlayer 1 3
+[00:48:51] Player 1 has been removed from channel 3
+[00:48:51] OnVoiceChannelUpdatePlayer 1 3
+[00:48:51] Player 1 has been added to channel 2
+[00:48:51] OnVoiceChannelUpdatePlayer 1 3
+[00:48:51] Player connected 1
+[00:48:52] Player 1 has changed his dimension from: 0 to: 501
+[00:49:04] Player 1 has changed his dimension from: 501 to: 0
+[00:49:05] Player 1 has changed his dimension from: 0 to: 2
+[00:52:28] Disconnected from alt:V server
+[00:52:28] Player disconnected 1 0
+[00:52:28] Remove player 1 0
+[00:52:30] Connected to alt:V server
+[00:52:37] Channel 1 created. Spatial: true | MaxDistance: 4.99886
+[00:52:37] Channel 2 created. Spatial: true | MaxDistance: 9.99924
+[00:52:37] Channel 3 created. Spatial: true | MaxDistance: 20
+[00:52:41] Player 1 has been added to channel 1
+[00:52:41] OnVoiceChannelUpdatePlayer 1 1
+[00:52:41] Player 1 has been added to channel 2
+[00:52:41] OnVoiceChannelUpdatePlayer 1 2
+[00:52:41] Player 1 has been added to channel 3
+[00:52:41] OnVoiceChannelUpdatePlayer 1 3
+[00:52:41] Player 1 has been removed from channel 1
+[00:52:41] OnVoiceChannelUpdatePlayer 1 3
+[00:52:41] Player 1 has been removed from channel 2
+[00:52:41] OnVoiceChannelUpdatePlayer 1 3
+[00:52:41] Player 1 has been removed from channel 3
+[00:52:41] OnVoiceChannelUpdatePlayer 1 3
+[00:52:41] Player 1 has been added to channel 2
+[00:52:41] OnVoiceChannelUpdatePlayer 1 3
+[00:52:41] Player connected 1
+[00:52:42] Player 1 has changed his dimension from: 0 to: 501
+[00:53:14] Player 1 has been removed from channel 1
+[00:53:14] OnVoiceChannelUpdatePlayer 1 2
+[00:53:14] Player 1 has been removed from channel 2
+[00:53:14] OnVoiceChannelUpdatePlayer 1 1
+[00:53:14] Player 1 has been removed from channel 3
+[00:53:14] OnVoiceChannelUpdatePlayer 1 0
+[00:53:14] Player disconnected 1 0
+[00:53:14] Remove player 1 0
+[00:55:14] Disconnected from alt:V server
+[00:56:30] Connected to alt:V server
+[00:56:38] Channel 1 created. Spatial: true | MaxDistance: 4.99886
+[00:56:38] Channel 2 created. Spatial: true | MaxDistance: 9.99924
+[00:56:38] Channel 3 created. Spatial: true | MaxDistance: 20
+[00:56:38] Disconnected from alt:V server
+[00:57:45] Connected to alt:V server
+[00:57:53] Channel 1 created. Spatial: true | MaxDistance: 4.99886
+[00:57:53] Channel 2 created. Spatial: true | MaxDistance: 9.99924
+[00:57:53] Channel 3 created. Spatial: true | MaxDistance: 20
+[00:58:37] Player 1 has been added to channel 1
+[00:58:37] OnVoiceChannelUpdatePlayer 1 1
+[00:58:37] Player 1 has been added to channel 2
+[00:58:37] OnVoiceChannelUpdatePlayer 1 2
+[00:58:37] Player 1 has been added to channel 3
+[00:58:37] OnVoiceChannelUpdatePlayer 1 3
+[00:58:37] Player 1 has been removed from channel 1
+[00:58:37] OnVoiceChannelUpdatePlayer 1 3
+[00:58:37] Player 1 has been removed from channel 2
+[00:58:37] OnVoiceChannelUpdatePlayer 1 3
+[00:58:37] Player 1 has been removed from channel 3
+[00:58:37] OnVoiceChannelUpdatePlayer 1 3
+[00:58:37][00:58:37] Player connected 1 Player 1 has been added to channel 2
+
+[00:58:37] OnVoiceChannelUpdatePlayer 1 3
+[00:58:38] Player 1 has changed his dimension from: 0 to: 501
+[00:58:52] Player 1 has changed his dimension from: 501 to: 0
+[00:58:52] Player 1 has changed his dimension from: 0 to: 2
+[01:00:28] Disconnected from alt:V server
+[01:00:28] Player disconnected 1 0
+[01:00:28] Remove player 1 0
+[01:00:30] Connected to alt:V server
+[01:00:36] Channel 1 created. Spatial: true | MaxDistance: 4.99886
+[01:00:36] Channel 2 created. Spatial: true | MaxDistance: 9.99924
+[01:00:36] Channel 3 created. Spatial: true | MaxDistance: 20
+[01:00:42] Player 1 has been added to channel 1
+[01:00:42] OnVoiceChannelUpdatePlayer 1 1
+[01:00:42] Player 1 has been added to channel 2
+[01:00:42] OnVoiceChannelUpdatePlayer 1 2
+[01:00:42] Player 1 has been added to channel 3
+[01:00:42] OnVoiceChannelUpdatePlayer 1 3
+[01:00:42] Player 1 has been removed from channel 1
+[01:00:42] OnVoiceChannelUpdatePlayer 1 3
+[01:00:42] Player 1 has been removed from channel 2
+[01:00:42] OnVoiceChannelUpdatePlayer 1 3
+[01:00:42] Player 1 has been removed from channel 3
+[01:00:42] OnVoiceChannelUpdatePlayer 1 3
+[01:00:42] Player 1 has been added to channel 2
+[01:00:42] OnVoiceChannelUpdatePlayer 1 3
+[01:00:42] Player connected 1
+[01:00:43] Player 1 has changed his dimension from: 0 to: 501
+[01:00:52] Player 1 has changed his dimension from: 501 to: 0
+[01:00:52] Player 1 has changed his dimension from: 0 to: 2
+[01:01:03] Player disconnected 1 3
+[01:01:33] Player 1 has been removed from channel 1
+[01:01:33] OnVoiceChannelUpdatePlayer 1 2
+[01:01:33] Player 1 has been removed from channel 2
+[01:01:33] OnVoiceChannelUpdatePlayer 1 1
+[01:01:33] Player 1 has been removed from channel 3
+[01:01:33] OnVoiceChannelUpdatePlayer 1 0
+[01:01:33] Remove player 1 0
+[01:07:36] Disconnected from alt:V server
+[01:10:32] Connected to alt:V server
+[01:10:47] Channel 1 created. Spatial: true | MaxDistance: 4.99886
+[01:10:47] Channel 2 created. Spatial: true | MaxDistance: 9.99924
+[01:10:47] Channel 3 created. Spatial: true | MaxDistance: 20
+[01:10:50] Disconnected from alt:V server
+[01:11:09] Connected to alt:V server
+[01:11:16] Channel 1 created. Spatial: true | MaxDistance: 4.99886
+[01:11:16] Channel 2 created. Spatial: true | MaxDistance: 9.99924
+[01:11:16] Channel 3 created. Spatial: true | MaxDistance: 20
+[01:11:59] Player 1 has been added to channel 1
+[01:11:59] OnVoiceChannelUpdatePlayer 1 1
+[01:11:59] Player 1 has been added to channel 2
+[01:11:59] OnVoiceChannelUpdatePlayer 1 2
+[01:11:59] Player 1 has been added to channel 3
+[01:11:59] OnVoiceChannelUpdatePlayer 1 3
+[01:11:59] Player 1 has been removed from channel 1
+[01:11:59] OnVoiceChannelUpdatePlayer 1 3
+[01:11:59] Player 1 has been removed from channel 2
+[01:11:59] OnVoiceChannelUpdatePlayer 1 3
+[01:11:59] Player 1 has been removed from channel 3
+[01:11:59] OnVoiceChannelUpdatePlayer 1 3
+[01:11:59] Player 1 has been added to channel 2
+[01:11:59] OnVoiceChannelUpdatePlayer 1 3
+[01:11:59] Player connected 1
+[01:12:01] Player 1 has changed his dimension from: 0 to: 501
+[01:12:13] Player 1 has changed his dimension from: 501 to: 0
+[01:12:13] Player 1 has changed his dimension from: 0 to: 2
+[01:15:54] Disconnected from alt:V server
+[01:15:54] Player disconnected 1 0
+[01:15:54] Remove player 1 0
+[01:15:56] Connected to alt:V server
+[01:16:03] Channel 1 created. Spatial: true | MaxDistance: 4.99886
+[01:16:03] Channel 2 created. Spatial: true | MaxDistance: 9.99924
+[01:16:03] Channel 3 created. Spatial: true | MaxDistance: 20
+[01:16:09] Player 1 has been added to channel 1
+[01:16:09] OnVoiceChannelUpdatePlayer 1 1
+[01:16:09] Player 1 has been added to channel 2
+[01:16:09] OnVoiceChannelUpdatePlayer 1 2
+[01:16:09] Player 1 has been added to channel 3
+[01:16:09] OnVoiceChannelUpdatePlayer 1 3
+[01:16:09] Player 1 has been removed from channel 1
+[01:16:09] OnVoiceChannelUpdatePlayer 1 3
+[01:16:09] Player 1 has been removed from channel 2
+[01:16:09] OnVoiceChannelUpdatePlayer 1 3
+[01:16:09] Player 1 has been removed from channel 3
+[01:16:09] OnVoiceChannelUpdatePlayer 1 3
+[01:16:09] Player 1 has been added to channel 2
+[01:16:09] OnVoiceChannelUpdatePlayer 1 3
+[01:16:09] Player connected 1
+[01:16:10] Player 1 has changed his dimension from: 0 to: 501
+[01:16:26] Player 1 has changed his dimension from: 501 to: 0
+[01:16:26] Player 1 has changed his dimension from: 0 to: 2
+[01:16:40] Player disconnected 1 3
+[01:17:10] Player 1 has been removed from channel 1
+[01:17:10] OnVoiceChannelUpdatePlayer 1 2
+[01:17:10] Player 1 has been removed from channel 2
+[01:17:10] OnVoiceChannelUpdatePlayer 1 1
+[01:17:10] Player 1 has been removed from channel 3
+[01:17:10] OnVoiceChannelUpdatePlayer 1 0
+[01:17:10] Remove player 1 0
+[01:17:55] Disconnected from alt:V server
+[01:17:57] Connected to alt:V server
+[01:18:06] Channel 1 created. Spatial: true | MaxDistance: 4.99886
+[01:18:06] Channel 2 created. Spatial: true | MaxDistance: 9.99924
+[01:18:06] Channel 3 created. Spatial: true | MaxDistance: 20
+[01:18:50] Player 1 has been added to channel 1
+[01:18:50] OnVoiceChannelUpdatePlayer 1 1
+[01:18:50] Player 1 has been added to channel 2
+[01:18:50] OnVoiceChannelUpdatePlayer 1 2
+[01:18:50] Player 1 has been added to channel 3
+[01:18:50] OnVoiceChannelUpdatePlayer 1 3
+[01:18:50] Player 1 has been removed from channel 1
+[01:18:50] OnVoiceChannelUpdatePlayer 1 3
+[01:18:50] Player 1 has been removed from channel 2
+[01:18:50] OnVoiceChannelUpdatePlayer 1 3
+[01:18:50] Player 1 has been removed from channel 3
+[01:18:50] OnVoiceChannelUpdatePlayer 1 3
+[01:18:50] Player 1 has been added to channel 2
+[01:18:50] OnVoiceChannelUpdatePlayer 1 3
+[01:18:50] Player connected 1
+[01:18:52] Player 1 has changed his dimension from: 0 to: 501
+[01:19:01] Player 1 has changed his dimension from: 501 to: 0
+[01:19:01] Player 1 has changed his dimension from: 0 to: 2
+[01:21:33] Player 1 has been removed from channel 1
+[01:21:33] OnVoiceChannelUpdatePlayer 1 2
+[01:21:33] Player 1 has been removed from channel 2
+[01:21:33] OnVoiceChannelUpdatePlayer 1 1
+[01:21:33] Player 1 has been removed from channel 3
+[01:21:33] OnVoiceChannelUpdatePlayer 1 0
+[01:21:33] Player disconnected 1 0
+[01:21:33] Remove player 1 0
+[01:23:07] Disconnected from alt:V server
+[01:23:59] Connected to alt:V server
+[01:24:09] Channel 1 created. Spatial: true | MaxDistance: 4.99886
+[01:24:09] Channel 2 created. Spatial: true | MaxDistance: 9.99924
+[01:24:09] Channel 3 created. Spatial: true | MaxDistance: 20
+01:24:15] Player connected 1
+01:24:15][01:24:15] Player 1 has been added to channel 1
+[01:24:15] OnVoiceChannelUpdatePlayer 1 1
+[01:24:15] Player 1 has been added to channel 2
+[01:24:15] OnVoiceChannelUpdatePlayer 1 2
+[01:24:15] Player 1 has been added to channel 3
+[01:24:15] OnVoiceChannelUpdatePlayer 1 3
+[01:24:15] Player 1 has been removed from channel 1
+[01:24:15] OnVoiceChannelUpdatePlayer 1 3
+[01:24:15] Player 1 has been removed from channel 2
+[01:24:15] OnVoiceChannelUpdatePlayer 1 3
+[01:24:15] Player 1 has been removed from channel 3
+[01:24:15] OnVoiceChannelUpdatePlayer 1 3
+[01:24:15] Player 1 has been added to channel 2
+[01:24:15] OnVoiceChannelUpdatePlayer 1 3
+[01:24:16] Player 1 has changed his dimension from: 0 to: 501
+[01:24:29] Player 1 has changed his dimension from: 501 to: 0
+[01:24:29] Player 1 has changed his dimension from: 0 to: 2
+[01:26:20] Disconnected from alt:V server
+[01:26:20] Player disconnected 1 0
+[01:26:20] Remove player 1 0
+[01:26:23] Connected to alt:V server
+[01:26:30] Channel 1 created. Spatial: true | MaxDistance: 4.99886
+[01:26:30] Channel 2 created. Spatial: true | MaxDistance: 9.99924
+[01:26:30] Channel 3 created. Spatial: true | MaxDistance: 20
+[01:26:35] Player 1 has been added to channel 1
+[01:26:35] OnVoiceChannelUpdatePlayer 1 1
+[01:26:35] Player 1 has been added to channel 2
+[01:26:35] OnVoiceChannelUpdatePlayer 1 2
+[01:26:35] Player 1 has been added to channel 3
+[01:26:35] OnVoiceChannelUpdatePlayer 1 3
+[01:26:35] Player 1 has been removed from channel 1
+[01:26:35] OnVoiceChannelUpdatePlayer 1 3
+[01:26:35] Player 1 has been removed from channel 2
+[01:26:35] OnVoiceChannelUpdatePlayer 1 3
+[01:26:35] Player 1 has been removed from channel 3
+[01:26:35] OnVoiceChannelUpdatePlayer 1 3
+[01:26:35] Player 1 has been added to channel 2
+[01:26:35] OnVoiceChannelUpdatePlayer 1 3
+[01:26:35] Player connected 1
+[01:26:36] Player 1 has changed his dimension from: 0 to: 501
+[01:26:44] Player 1 has changed his dimension from: 501 to: 0
+[01:26:44] Player 1 has changed his dimension from: 0 to: 2
+[01:27:01] Disconnected from alt:V server
+[01:27:02] Player disconnected 1 0
+[01:27:02] Remove player 1 0
+[01:30:36] Connected to alt:V server
+[01:30:43] Channel 1 created. Spatial: true | MaxDistance: 4.99886
+[01:30:43] Channel 2 created. Spatial: true | MaxDistance: 9.99924
+[01:30:43] Channel 3 created. Spatial: true | MaxDistance: 20
+ Player connected 1 Player connected 1[01:30:46]
+ Player 1 has been added to channel 1
+[01:30:46] OnVoiceChannelUpdatePlayer 1 1
+[01:30:46] Player 1 has been added to channel 2
+[01:30:46] OnVoiceChannelUpdatePlayer 1 2
+[01:30:46] Player 1 has been added to channel 3
+[01:30:46] OnVoiceChannelUpdatePlayer 1 3
+[01:30:46] Player 1 has been removed from channel 1
+[01:30:46] OnVoiceChannelUpdatePlayer 1 3
+[01:30:46] Player 1 has been removed from channel 2
+[01:30:46] OnVoiceChannelUpdatePlayer 1 3
+[01:30:46] Player 1 has been removed from channel 3
+[01:30:46] OnVoiceChannelUpdatePlayer 1 3
+[01:30:46] Player 1 has been added to channel 2
+[01:30:46] OnVoiceChannelUpdatePlayer 1 3
+[01:30:47] Player 1 has changed his dimension from: 0 to: 501
+[01:30:55] Player 1 has changed his dimension from: 501 to: 0
+[01:30:56] Player 1 has changed his dimension from: 0 to: 2
+[01:32:24] Disconnected from alt:V server
+[01:32:24] Player disconnected 1 0
+[01:32:24] Remove player 1 0
+[01:32:26] Connected to alt:V server
+[01:32:33] Channel 1 created. Spatial: true | MaxDistance: 4.99886
+[01:32:33] Channel 2 created. Spatial: true | MaxDistance: 9.99924
+[01:32:33] Channel 3 created. Spatial: true | MaxDistance: 20
+[01:32:39] Player 1 has been added to channel 1
+[01:32:39] OnVoiceChannelUpdatePlayer 1 1
+[01:32:39] Player 1 has been added to channel 2
+[01:32:39] OnVoiceChannelUpdatePlayer 1 2
+[01:32:39] Player 1 has been added to channel 3
+[01:32:39] OnVoiceChannelUpdatePlayer 1 3
+[01:32:39] Player 1 has been removed from channel 1
+[01:32:39] OnVoiceChannelUpdatePlayer 1 3
+[01:32:39] Player 1 has been removed from channel 2
+[01:32:39] OnVoiceChannelUpdatePlayer 1 3
+[01:32:39] Player 1 has been removed from channel 3
+[01:32:39] OnVoiceChannelUpdatePlayer 1 3
+[01:32:39] Player 1 has been added to channel 2
+[01:32:39] OnVoiceChannelUpdatePlayer 1 3
+[01:32:39] Player connected 1
+[01:32:40] Player 1 has changed his dimension from: 0 to: 501
+[01:32:47] Player 1 has changed his dimension from: 501 to: 0
+[01:32:47] Player 1 has changed his dimension from: 0 to: 2
+[01:38:18] Disconnected from alt:V server
+[01:38:18] Player disconnected 1 0
+[01:38:18] Remove player 1 0
+[01:38:20] Connected to alt:V server
+[01:38:27] Channel 1 created. Spatial: true | MaxDistance: 4.99886
+[01:38:27] Channel 2 created. Spatial: true | MaxDistance: 9.99924
+[01:38:27] Channel 3 created. Spatial: true | MaxDistance: 20
+[01:38:31] Player 1 has been added to channel 1
+[01:38:31] OnVoiceChannelUpdatePlayer 1 1
+[01:38:31] Player 1 has been added to channel 2
+[01:38:31] OnVoiceChannelUpdatePlayer 1 2
+[01:38:31] Player 1 has been added to channel 3
+[01:38:31] OnVoiceChannelUpdatePlayer 1 3
+[01:38:31] Player 1 has been removed from channel 1
+[01:38:31] OnVoiceChannelUpdatePlayer 1 3
+[01:38:31] Player 1 has been removed from channel 2
+[01:38:31] OnVoiceChannelUpdatePlayer 1 3
+[01:38:31] Player 1 has been removed from channel 3
+[01:38:31] OnVoiceChannelUpdatePlayer 1 3
+[01:38:31] Player 1 has been added to channel 2
+[01:38:31] OnVoiceChannelUpdatePlayer 1 3
+[01:38:31] Player connected 1
+[01:38:32] Player 1 has changed his dimension from: 0 to: 501
+[01:38:41] Player 1 has changed his dimension from: 501 to: 0
+[01:38:41] Player 1 has changed his dimension from: 0 to: 2
+[01:42:50] Disconnected from alt:V server
+[01:42:50] Player disconnected 1 0
+[01:42:50] Remove player 1 0
+[01:42:52] Connected to alt:V server
+[01:42:59] Channel 1 created. Spatial: true | MaxDistance: 4.99886
+[01:42:59] Channel 2 created. Spatial: true | MaxDistance: 9.99924
+[01:42:59] Channel 3 created. Spatial: true | MaxDistance: 20
+[01:43:02] Player 1 has been added to channel 1
+[01:43:02] OnVoiceChannelUpdatePlayer 1 1
+[01:43:02] Player 1 has been added to channel 2
+[01:43:02] OnVoiceChannelUpdatePlayer 1 2
+[01:43:02] Player 1 has been added to channel 3
+[01:43:02] OnVoiceChannelUpdatePlayer 1 3
+[01:43:02] Player 1 has been removed from channel 1
+[01:43:02] OnVoiceChannelUpdatePlayer 1 3
+[01:43:02] Player 1 has been removed from channel 2
+[01:43:02] OnVoiceChannelUpdatePlayer 1 3
+[01:43:02] Player 1 has been removed from channel 3
+[01:43:02] OnVoiceChannelUpdatePlayer 1 3
+[01:43:02] Player 1 has been added to channel 2
+[01:43:02] OnVoiceChannelUpdatePlayer 1 3
+[01:43:02] Player connected 1
+[01:43:03] Player 1 has changed his dimension from: 0 to: 501
+[01:43:12] Player 1 has changed his dimension from: 501 to: 0
+[01:43:12] Player 1 has changed his dimension from: 0 to: 2
+[01:46:03] Disconnected from alt:V server
+[01:46:03] Player disconnected 1 0
+[01:46:03] Remove player 1 0
+[01:46:05] Connected to alt:V server
+[01:46:12] Channel 1 created. Spatial: true | MaxDistance: 4.99886
+[01:46:12] Channel 2 created. Spatial: true | MaxDistance: 9.99924
+[01:46:12] Channel 3 created. Spatial: true | MaxDistance: 20
+[01:46:18] Player 1 has been added to channel 1
+[01:46:18] OnVoiceChannelUpdatePlayer 1 1
+[01:46:18] Player 1 has been added to channel 2
+[01:46:18] OnVoiceChannelUpdatePlayer 1 2
+[01:46:18] Player 1 has been added to channel 3
+[01:46:18] OnVoiceChannelUpdatePlayer 1 3
+[01:46:18] Player 1 has been removed from channel 1
+[01:46:18] OnVoiceChannelUpdatePlayer 1 3
+[01:46:18] Player 1 has been removed from channel 2
+[01:46:18] OnVoiceChannelUpdatePlayer 1 3
+[01:46:18] Player 1 has been removed from channel 3
+[01:46:18] OnVoiceChannelUpdatePlayer 1 3
+[01:46:18] Player 1 has been added to channel 2
+[01:46:18] OnVoiceChannelUpdatePlayer 1 3
+[01:46:18] Player connected 1
+[01:46:19] Player 1 has changed his dimension from: 0 to: 501
+[01:46:27] Player 1 has changed his dimension from: 501 to: 0
+[01:46:28] Player 1 has changed his dimension from: 0 to: 2
+[01:47:52] Disconnected from alt:V server
+[01:47:52] Player disconnected 1 0
+[01:47:52] Remove player 1 0
+[01:48:43] Connected to alt:V server
+[01:48:51] Channel 1 created. Spatial: true | MaxDistance: 4.99886
+[01:48:51] Channel 2 created. Spatial: true | MaxDistance: 9.99924
+[01:48:51] Channel 3 created. Spatial: true | MaxDistance: 20
+[01:48:54] Player 1  has been added to channel 1 Player 1  has been added to channel 101:48:54]
+ Player connected 1
+[01:48:54] OnVoiceChannelUpdatePlayer 1 1
+[01:48:54] Player 1 has been added to channel 2
+[01:48:54] OnVoiceChannelUpdatePlayer 1 2
+[01:48:54] Player 1 has been added to channel 3
+[01:48:54] OnVoiceChannelUpdatePlayer 1 3
+[01:48:54] Player 1 has been removed from channel 1
+[01:48:54] OnVoiceChannelUpdatePlayer 1 3
+[01:48:54] Player 1 has been removed from channel 2
+[01:48:54] OnVoiceChannelUpdatePlayer 1 3
+[01:48:54] Player 1 has been removed from channel 3
+[01:48:54] OnVoiceChannelUpdatePlayer 1 3
+[01:48:54] Player 1 has been added to channel 2
+[01:48:54] OnVoiceChannelUpdatePlayer 1 3
+[01:48:55] Player 1 has changed his dimension from: 0 to: 501
+[01:49:03] Player 1 has changed his dimension from: 501 to: 0
+[01:49:03] Player 1 has changed his dimension from: 0 to: 2
+[01:54:06] Disconnected from alt:V server
+[01:54:07] Player disconnected 1 0
+[01:54:07] Remove player 1 0
+[01:54:10] Connected to alt:V server
+[01:54:18] Channel 1 created. Spatial: true | MaxDistance: 4.99886
+[01:54:18] Channel 2 created. Spatial: true | MaxDistance: 9.99924
+[01:54:18] Channel 3 created. Spatial: true | MaxDistance: 20
+[01:54:24] Player 1 has been added to channel 1
+[01:54:24] OnVoiceChannelUpdatePlayer 1 1
+[01:54:24] Player 1 has been added to channel 2
+[01:54:24] OnVoiceChannelUpdatePlayer 1 2
+[01:54:24] Player 1 has been added to channel 3
+[01:54:24] OnVoiceChannelUpdatePlayer 1 3
+[01:54:24] Player 1 has been removed from channel 1
+[01:54:24] OnVoiceChannelUpdatePlayer 1 3
+[01:54:24] Player 1 has been removed from channel 2
+[01:54:24] OnVoiceChannelUpdatePlayer 1 3
+[01:54:24] Player 1 has been removed from channel 3
+[01:54:24] OnVoiceChannelUpdatePlayer 1 3
+[01:54:24] Player 1 has been added to channel 2
+[01:54:24] OnVoiceChannelUpdatePlayer 1 3
+[01:54:24] Player connected 1
+[01:54:26] Player 1 has changed his dimension from: 0 to: 501
+[01:54:34] Player 1 has changed his dimension from: 501 to: 0
+[01:54:35] Player 1 has changed his dimension from: 0 to: 2
+[01:56:50] Disconnected from alt:V server
+[01:56:50] Player disconnected 1 0
+[01:56:50] Remove player 1 0
+[01:56:53] Connected to alt:V server
+[01:57:01] Channel 1 created. Spatial: true | MaxDistance: 4.99886
+[01:57:01] Channel 2 created. Spatial: true | MaxDistance: 9.99924
+[01:57:01] Channel 3 created. Spatial: true | MaxDistance: 20
+[01:57:08] Player 1 has been added to channel 1
+[01:57:08] OnVoiceChannelUpdatePlayer 1 1
+[01:57:08] Player 1 has been added to channel 2
+[01:57:08] OnVoiceChannelUpdatePlayer 1 2
+[01:57:08] Player 1 has been added to channel 3
+[01:57:08] OnVoiceChannelUpdatePlayer 1 3
+[01:57:08] Player 1 has been removed from channel 1
+[01:57:08] OnVoiceChannelUpdatePlayer 1 3
+[01:57:08] Player 1 has been removed from channel 2
+[01:57:08] OnVoiceChannelUpdatePlayer 1 3
+[01:57:08] Player 1 has been removed from channel 3
+[01:57:08] OnVoiceChannelUpdatePlayer 1 3
+[01:57:08] Player 1 has been added to channel 2
+[01:57:08] OnVoiceChannelUpdatePlayer 1 3
+[01:57:08] Player connected 1
+[01:57:10] Player 1 has changed his dimension from: 0 to: 501
+[01:57:20] Player 1 has changed his dimension from: 501 to: 0
+[01:57:21] Player 1 has changed his dimension from: 0 to: 2
+[01:58:45] Player 1 has changed his dimension from: 2 to: 0
+[01:59:34] Disconnected from alt:V server
+[01:59:34] Player disconnected 1 0
+[01:59:34] Remove player 1 0
+[01:59:36] Connected to alt:V server
+[01:59:45] Channel 1 created. Spatial: true | MaxDistance: 4.99886
+[01:59:45] Channel 2 created. Spatial: true | MaxDistance: 9.99924
+[01:59:45] Channel 3 created. Spatial: true | MaxDistance: 20
+[01:59:51] Player 1 has been added to channel 1
+[01:59:51] OnVoiceChannelUpdatePlayer 1 1
+[01:59:51] Player 1 has been added to channel 2
+[01:59:51] OnVoiceChannelUpdatePlayer 1 2
+[01:59:51] Player 1 has been added to channel 3
+[01:59:51] OnVoiceChannelUpdatePlayer 1 3
+[01:59:51] Player 1 has been removed from channel 1
+[01:59:51] OnVoiceChannelUpdatePlayer 1 3
+[01:59:51] Player 1 has been removed from channel 2
+[01:59:51] OnVoiceChannelUpdatePlayer 1 3
+[01:59:51] Player 1 has been removed from channel 3
+[01:59:51] OnVoiceChannelUpdatePlayer 1 3
+[01:59:51] Player 1 has been added to channel 2
+[01:59:51] OnVoiceChannelUpdatePlayer 1 3
+[01:59:51] Player connected 1
+[01:59:52] Player 1 has changed his dimension from: 0 to: 501
+[02:00:01] Player 1 has changed his dimension from: 501 to: 0

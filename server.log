@@ -1,0 +1,362 @@
+[21:00:27] alt:V Server 16.2.25 (release)
+[21:00:27] Starting Drain Gang Server | Russia Vladivostok on [::]:7788
+[21:00:27][Warning] Running a production server without a CDN is highly discouraged, consider setting a CDN URL
+[21:00:28] Loading resource database
+[21:00:28] Loaded resource database
+[21:00:28] Loading resource chat
+[21:00:28] Loaded resource chat
+[21:00:28] Loading resource money
+[21:00:28][js] [Money] System initialized successfully
+[21:00:28] Loaded resource money
+[21:00:28] Loading resource auth
+[21:00:28] Loaded resource auth
+[21:00:28] Loading resource hud
+[21:00:28][js] [Money] System initialized successfully
+[21:00:28] Loaded resource hud
+[21:00:28] Loading resource commands
+[21:00:28][Warning][js] Trying to import resource 'chat' without 'alt:' prefix, this is deprecated behaviour.
+[21:00:28][Warning][js] Import 'alt:chat' instead to silence this warning.
+[21:00:28][js] [Money] System initialized successfully
+[21:00:28] Loaded resource commands
+[21:00:28] Loading resource nametags
+[21:00:28] Loaded resource nametags
+[21:00:28] Loading resource noclip
+[21:00:28] Loaded resource noclip
+[21:00:28] Loading resource appearance
+[21:00:28] Loaded resource appearance
+[21:00:28] Loading resource rent
+[21:00:29][Warning][js] Trying to import resource 'chat' without 'alt:' prefix, this is deprecated behaviour.
+[21:00:29][Warning][js] Import 'alt:chat' instead to silence this warning.
+[21:00:29][js] [Money] System initialized successfully
+[21:00:29][js] Spawned moped with ID: 1 at -9.11208724975586, 31.46373748779297, 70.814697265625
+[21:00:29][js] Spawned moped with ID: 2 at -10.0087890625, 31.93846321105957, 70.865234375
+[21:00:29][js] Spawned moped with ID: 3 at -11.010990142822266, 32.28131866455078, 70.9326171875
+[21:00:29][js] Spawned moped with ID: 4 at -13.846153259277344, 33.19121170043945, 71.10107421875
+[21:00:29][js] Spawned moped with ID: 5 at -16.575824737548828, 34.259342193603516, 71.218994140625
+[21:00:29][js] Spawned moped with ID: 6 at -17.4989013671875, 34.509891510009766, 71.2528076171875
+[21:00:29][js] Spawned moped with ID: 7 at -15.61318588256836, 33.96923065185547, 71.185302734375
+[21:00:29][js] Spawned moped with ID: 8 at -14.86153793334961, 33.586814880371094, 71.151611328125
+[21:00:29][js] Spawned moped with ID: 9 at -13.015384674072266, 32.993408203125, 71.050537109375
+[21:00:29][js] Spawned moped with ID: 10 at -12.079120635986328, 32.650550842285156, 71.016845703125
+[21:00:29] Loaded resource rent
+[21:00:29] Loading resource bank
+[21:00:29][js] [Money] System initialized successfully
+[21:00:30] Loaded resource bank
+[21:00:30] Loading resource houses
+[21:00:30][js] [Money] System initialized successfully
+[21:00:30][js] Houses resource starting...
+[21:00:30] Loaded resource houses
+[21:00:30] Loading resource admin-panel
+[21:00:30][Warning][js] Trying to import resource 'chat' without 'alt:' prefix, this is deprecated behaviour.
+[21:00:30][Warning][js] Import 'alt:chat' instead to silence this warning.
+[21:00:31][js] [Money] System initialized successfully
+[21:00:31][js] ACP Started at : 192.168.0.107:9999
+[21:00:31] Loaded resource admin-panel
+[21:00:31] Loading resource sounds
+[21:00:31] Loaded resource sounds
+[21:00:31] Loading resource vehicle-lock
+[21:00:31] Loaded resource vehicle-lock
+[21:00:31] Loading resource car-shop
+[21:00:32][js] [Money] System initialized successfully
+[21:00:32] Loaded resource car-shop
+[21:00:32] Loading resource tuning
+[21:00:32][js] [Money] System initialized successfully
+[21:00:32] Loaded resource tuning
+[21:00:32] Loading resource nitro
+[21:00:32] Loaded resource nitro
+[21:00:32] Loading resource radio
+[21:00:32] Loaded resource radio
+[21:00:32] Loading resource roxanne
+[21:00:32] Loaded resource roxanne
+[21:00:32] Loading resource elegyrh7
+[21:00:33] Loaded resource elegyrh7
+[21:00:33] Loading resource sunrise1
+[21:00:33] Loaded resource sunrise1
+[21:00:33] Loading resource zr380c
+[21:00:34] Loaded resource zr380c
+[21:00:34] Loading resource kawaii
+[21:00:34] Loaded resource kawaii
+[21:00:34] Loading resource shrek
+[21:00:34] Loaded ped shrek
+[21:00:34] Loaded resource shrek
+[21:00:34] Loading resource map
+[21:00:34] Loaded resource map
+[21:00:34] Loading resource blip
+[21:00:34] Loaded resource blip
+[21:00:34] Loading resource jobs
+[21:00:34][Warning][js] Trying to import resource 'chat' without 'alt:' prefix, this is deprecated behaviour.
+[21:00:34][Warning][js] Import 'alt:chat' instead to silence this warning.
+[21:00:34][js] [Money] System initialized successfully
+[21:00:34] Loaded resource jobs
+[21:00:34] Loading resource timer
+[21:00:34][Warning][js] Using the module 'node-fetch' can cause problems. Reason: Console hangs
+[21:00:34] Loaded resource timer
+[21:00:34] Loading resource pointing
+[21:00:35] Loaded resource pointing
+[21:00:35] Loading resource altv-sit
+[21:00:35] Loaded resource altv-sit
+[21:00:35] Loading resource voice
+[21:00:35] Loaded resource voice
+[21:00:35] Required server permissions:
+[21:00:35] Optional server permissions:
+[21:00:35] Starting HTTP server on [::]:7788
+[21:00:35] Main thread started (ThreadId: 5752)
+[21:00:35] ExternalVoiceNetwork thread started (ThreadId: 12644)
+[21:00:35] EntityStreamer thread started (ThreadId: 4748)
+[21:00:35] SyncSend thread started (ThreadId: 12820)
+[21:00:35] SyncSend thread started (ThreadId: 10584)
+[21:00:35] SyncSend thread started (ThreadId: 3468)
+[21:00:35] SyncSend thread started (ThreadId: 10360)
+[21:00:35] SyncSend thread started (ThreadId: 10940)
+[21:00:35] SyncSend thread started (ThreadId: 11984)
+[21:00:35] SyncReceive thread started (ThreadId: 10716)
+[21:00:35] SyncSend thread started (ThreadId: 4580)
+[21:00:35] SyncReceive thread started (ThreadId: 13016)
+[21:00:35] SyncSend thread started (ThreadId: 9180)
+[21:00:35] SyncReceive thread started (ThreadId: 6692)
+[21:00:35] NetworkWorker #1 thread started (ThreadId: 2684)
+[21:00:35] SyncReceive thread started (ThreadId: 12756)
+[21:00:35] Console thread started (ThreadId: 1036)
+[21:00:35][Warning] Server started in debug mode
+[21:00:36][Warning] resourceManager.Update() took: 786 ms
+[21:00:36][Warning] resourceManager.Update() took: 196 ms
+[21:00:36] Connected to master server
+[21:00:36][Warning] resourceManager.Update() took: 103 ms
+[21:00:36][js] [Money] Database initialized
+[21:00:36][js] [Money] Database initialized
+[21:00:36][js] [Money] Database initialized
+[21:00:36][js] [Money] Database initialized
+[21:00:36][js] [Money] Database initialized
+[21:00:36][js] [Money] Database initialized
+[21:00:36][js] [Money] Database initialized
+[21:00:36][js] [Money] Database initialized
+[21:00:36][js] [Money] Database initialized
+[21:00:36][js] [Money] Database initialized
+[21:00:36][js] Houses tables created successfully
+[21:00:36][js] [Commands] Database initialized
+[21:00:36][js] Houses initialized successfully
+[21:00:36][js] Creating blips for 6 houses...
+[21:00:36][js] House 1 owner check: null
+[21:00:36][js] House 2 owner check: null
+[21:00:36][js] House 3 owner check: null
+[21:00:36][js] House 6 owner check: null
+[21:00:36][js] House 5 owner check: null
+[21:00:36][js] House 4 owner check: 1
+[21:00:36][js] Houses data prepared: [
+  {
+    id: 1,
+    position: {
+      x: -1461.1624755859375,
+      y: -525.0836181640625,
+      z: 56.928646087646484
+    },
+    owned: false
+  },
+  {
+    id: 2,
+    position: { x: -821.8936, y: 178.0159, z: 71.1571 },
+    owned: false
+  },
+  {
+    id: 3,
+    position: { x: 1301.0914, y: -574.1276, z: 71.7321 },
+    owned: false
+  },
+  {
+    id: 4,
+    position: { x: -2587.8826, y: 1910.4573, z: 167.4989 },
+    owned: true
+  },
+  {
+    id: 5,
+    position: { x: 346.4414, y: -1007.799, z: 29.4578 },
+    owned: false
+  },
+  {
+    id: 6,
+    position: { x: -174.7686, y: 502.7953, z: 137.4208 },
+    owned: false
+  }
+]
+[21:00:57][Error] Failed to connect to external voice server
+[21:01:27][Error] Failed to connect to external voice server
+[21:01:57][Error] Failed to connect to external voice server
+[21:02:27][Error] Failed to connect to external voice server
+[21:02:57][Error] Failed to connect to external voice server
+[21:03:27][Error] Failed to connect to external voice server
+[21:03:57][Error] Failed to connect to external voice server
+[21:04:27][Error] Failed to connect to external voice server
+[21:04:57][Error] Failed to connect to external voice server
+[21:05:27][Error] Failed to connect to external voice server
+[21:05:28][js] [Money] All balances saved successfully
+[21:05:28][js] [Money] All balances saved successfully
+[21:05:28][js] [Money] All balances saved successfully
+[21:05:29][js] [Money] All balances saved successfully
+[21:05:29][js] [Money] All balances saved successfully
+[21:05:30][js] [Money] All balances saved successfully
+[21:05:31][js] [Money] All balances saved successfully
+[21:05:32][js] [Money] All balances saved successfully
+[21:05:32][js] [Money] All balances saved successfully
+[21:05:34][js] [Money] All balances saved successfully
+[21:05:57][Error] Failed to connect to external voice server
+[21:06:27][Error] Failed to connect to external voice server
+[21:06:57][Error] Failed to connect to external voice server
+[21:07:28][Error] Failed to connect to external voice server
+[21:07:58][Error] Failed to connect to external voice server
+[21:08:28][Error] Failed to connect to external voice server
+[21:08:58][Error] Failed to connect to external voice server
+[21:09:28][Error] Failed to connect to external voice server
+[21:09:58][Error] Failed to connect to external voice server
+[21:10:28][Error] Failed to connect to external voice server
+[21:10:28][js] [Money] All balances saved successfully
+[21:10:28][js] [Money] All balances saved successfully
+[21:10:28][js] [Money] All balances saved successfully
+[21:10:29][js] [Money] All balances saved successfully
+[21:10:29][js] [Money] All balances saved successfully
+[21:10:30][js] [Money] All balances saved successfully
+[21:10:31][js] [Money] All balances saved successfully
+[21:10:32][js] [Money] All balances saved successfully
+[21:10:32][js] [Money] All balances saved successfully
+[21:10:34][js] [Money] All balances saved successfully
+[21:10:58][Error] Failed to connect to external voice server
+[21:11:28][Error] Failed to connect to external voice server
+[21:11:58][Error] Failed to connect to external voice server
+[21:12:28][Error] Failed to connect to external voice server
+[21:12:58][Error] Failed to connect to external voice server
+[21:13:28][Error] Failed to connect to external voice server
+[21:13:58][Error] Failed to connect to external voice server
+[21:14:28][Error] Failed to connect to external voice server
+[21:14:58][Error] Failed to connect to external voice server
+[21:15:28][js] [Money] All balances saved successfully
+[21:15:28][Error] Failed to connect to external voice server
+[21:15:28][js] [Money] All balances saved successfully
+[21:15:28][js] [Money] All balances saved successfully
+[21:15:29][js] [Money] All balances saved successfully
+[21:15:29][js] [Money] All balances saved successfully
+[21:15:30][js] [Money] All balances saved successfully
+[21:15:31][js] [Money] All balances saved successfully
+[21:15:32][js] [Money] All balances saved successfully
+[21:15:32][js] [Money] All balances saved successfully
+[21:15:34][js] [Money] All balances saved successfully
+[21:15:58][Error] Failed to connect to external voice server
+[21:16:28][Error] Failed to connect to external voice server
+[21:16:58][Error] Failed to connect to external voice server
+[21:17:28][Error] Failed to connect to external voice server
+[21:17:58][Error] Failed to connect to external voice server
+[21:18:28][Error] Failed to connect to external voice server
+[21:18:58][Error] Failed to connect to external voice server
+[21:19:28][Error] Failed to connect to external voice server
+[21:19:58][Error] Failed to connect to external voice server
+[21:20:28][js] [Money] All balances saved successfully
+[21:20:28][js] [Money] All balances saved successfully
+[21:20:28][js] [Money] All balances saved successfully
+[21:20:28][Error] Failed to connect to external voice server
+[21:20:29][js] [Money] All balances saved successfully
+[21:20:29][js] [Money] All balances saved successfully
+[21:20:30][js] [Money] All balances saved successfully
+[21:20:31][js] [Money] All balances saved successfully
+[21:20:32][js] [Money] All balances saved successfully
+[21:20:32][js] [Money] All balances saved successfully
+[21:20:34][js] [Money] All balances saved successfully
+[21:20:58][Error] Failed to connect to external voice server
+[21:21:28][Error] Failed to connect to external voice server
+[21:21:58][Error] Failed to connect to external voice server
+[21:22:29][Error] Failed to connect to external voice server
+[21:22:59][Error] Failed to connect to external voice server
+[21:23:29][Error] Failed to connect to external voice server
+[21:23:59][Error] Failed to connect to external voice server
+[21:24:29][Error] Failed to connect to external voice server
+[21:24:59][Error] Failed to connect to external voice server
+[21:25:28][js] [Money] All balances saved successfully
+[21:25:28][js] [Money] All balances saved successfully
+[21:25:28][js] [Money] All balances saved successfully
+[21:25:29][js] [Money] All balances saved successfully
+[21:25:29][js] [Money] All balances saved successfully
+[21:25:29][Error] Failed to connect to external voice server
+[21:25:30][js] [Money] All balances saved successfully
+[21:25:31][js] [Money] All balances saved successfully
+[21:25:32][js] [Money] All balances saved successfully
+[21:25:32][js] [Money] All balances saved successfully
+[21:25:34][js] [Money] All balances saved successfully
+[21:25:59][Error] Failed to connect to external voice server
+[21:26:29][Error] Failed to connect to external voice server
+[21:26:59][Error] Failed to connect to external voice server
+[21:27:29][Error] Failed to connect to external voice server
+[21:27:59][Error] Failed to connect to external voice server
+[21:28:29][Error] Failed to connect to external voice server
+[21:28:59][Error] Failed to connect to external voice server
+[21:29:29][Error] Failed to connect to external voice server
+[21:29:59][Error] Failed to connect to external voice server
+[21:30:28][js] [Money] All balances saved successfully
+[21:30:28][js] [Money] All balances saved successfully
+[21:30:28][js] [Money] All balances saved successfully
+[21:30:29][js] [Money] All balances saved successfully
+[21:30:29][js] [Money] All balances saved successfully
+[21:30:29][Error] Failed to connect to external voice server
+[21:30:30][js] [Money] All balances saved successfully
+[21:30:31][js] [Money] All balances saved successfully
+[21:30:32][js] [Money] All balances saved successfully
+[21:30:32][js] [Money] All balances saved successfully
+[21:30:34][js] [Money] All balances saved successfully
+[21:30:59][Error] Failed to connect to external voice server
+[21:31:29][Error] Failed to connect to external voice server
+[21:31:59][Error] Failed to connect to external voice server
+[21:32:29][Error] Failed to connect to external voice server
+[21:32:59][Error] Failed to connect to external voice server
+[21:33:29][Error] Failed to connect to external voice server
+[21:33:59][Error] Failed to connect to external voice server
+[21:34:29][Error] Failed to connect to external voice server
+[21:34:59][Error] Failed to connect to external voice server
+[21:35:28][js] [Money] All balances saved successfully
+[21:35:28][js] [Money] All balances saved successfully
+[21:35:28][js] [Money] All balances saved successfully
+[21:35:29][js] [Money] All balances saved successfully
+[21:35:29][js] [Money] All balances saved successfully
+[21:35:29][Error] Failed to connect to external voice server
+[21:35:30][js] [Money] All balances saved successfully
+[21:35:31][js] [Money] All balances saved successfully
+[21:35:32][js] [Money] All balances saved successfully
+[21:35:32][js] [Money] All balances saved successfully
+[21:35:34][js] [Money] All balances saved successfully
+[21:35:59][Error] Failed to connect to external voice server
+[21:36:29][Error] Failed to connect to external voice server
+[21:36:59][Error] Failed to connect to external voice server
+[21:37:29][Error] Failed to connect to external voice server
+[21:38:00][Error] Failed to connect to external voice server
+[21:38:30][Error] Failed to connect to external voice server
+[21:39:00][Error] Failed to connect to external voice server
+[21:39:30][Error] Failed to connect to external voice server
+[21:40:00][Error] Failed to connect to external voice server
+[21:40:28][js] [Money] All balances saved successfully
+[21:40:28][js] [Money] All balances saved successfully
+[21:40:28][js] [Money] All balances saved successfully
+[21:40:29][js] [Money] All balances saved successfully
+[21:40:29][js] [Money] All balances saved successfully
+[21:40:30][Error] Failed to connect to external voice server
+[21:40:30][js] [Money] All balances saved successfully
+[21:40:31][js] [Money] All balances saved successfully
+[21:40:32][js] [Money] All balances saved successfully
+[21:40:32][js] [Money] All balances saved successfully
+[21:40:34][js] [Money] All balances saved successfully
+[21:41:00][Error] Failed to connect to external voice server
+[21:41:30][Error] Failed to connect to external voice server
+[21:42:00][Error] Failed to connect to external voice server
+[21:42:30][Error] Failed to connect to external voice server
+[21:43:00][Error] Failed to connect to external voice server
+[21:43:30][Error] Failed to connect to external voice server
+[21:44:00][Error] Failed to connect to external voice server
+[21:44:30][Error] Failed to connect to external voice server
+[21:45:00][Error] Failed to connect to external voice server
+[21:45:28][js] [Money] All balances saved successfully
+[21:45:28][js] [Money] All balances saved successfully
+[21:45:28][js] [Money] All balances saved successfully
+[21:45:29][js] [Money] All balances saved successfully
+[21:45:29][js] [Money] All balances saved successfully
+[21:45:30][js] [Money] All balances saved successfully
+[21:45:30][Error] Failed to connect to external voice server
+[21:45:31][js] [Money] All balances saved successfully
+[21:45:32][js] [Money] All balances saved successfully
+[21:45:32][js] [Money] All balances saved successfully
+[21:45:34][js] [Money] All balances saved successfully
+[21:46:00][Error] Failed to connect to external voice server
+[21:46:18] Stopping resource car-shop

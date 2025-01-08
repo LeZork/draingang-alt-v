@@ -1,0 +1,3 @@
+type = 'js'
+main = 'server/instance.js'
+client-main = 'client/index.js'
